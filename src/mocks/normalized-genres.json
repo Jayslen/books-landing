@@ -20,20 +20,8 @@
     "id": "75571c93-09f0-4a55-b2e2-988d6c6a40fe"
   },
   {
-    "name": "Audiobook",
-    "id": "9590555c-719e-4d40-b544-9bc36913b230"
-  },
-  {
     "name": "Biography",
     "id": "a46f513a-80a8-4a89-a4ce-800b2ded278f"
-  },
-  {
-    "name": "Non Fiction",
-    "id": "b0cc08dd-0fa8-4571-b6ee-d6d78370ac8b"
-  },
-  {
-    "name": "History",
-    "id": "111ca892-5e19-4f26-b45b-f320df370c15"
   },
   {
     "name": "Art",
@@ -44,24 +32,8 @@
     "id": "9242c870-e58d-49e2-bfde-c861bf0efb86"
   },
   {
-    "name": "Cyberpunk",
-    "id": "b6b86f61-1f58-4a05-9dbb-b8ae80fe3773"
-  },
-  {
     "name": "Philosophy",
     "id": "c66f4945-b891-4541-873e-458be0e0685e"
-  },
-  {
-    "name": "Psychology",
-    "id": "f6f87aa9-46cb-4a04-a514-fd9e336e42ff"
-  },
-  {
-    "name": "Science",
-    "id": "3b307703-4024-4551-a4a5-f1ffbd0c3a4a"
-  },
-  {
-    "name": "Business",
-    "id": "42900e23-e94c-4c4c-bd45-a2e98d41041e"
   },
   {
     "name": "Fiction",
@@ -74,9 +46,5 @@
   {
     "name": "Thriller",
     "id": "49976352-f5c0-4c03-b299-be20d85f0ab1"
-  },
-  {
-    "name": "Mythology",
-    "id": "6db6a03a-c9ee-4db0-a3af-ec90c1a2ac16"
   }
 ]

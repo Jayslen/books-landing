@@ -12,11 +12,11 @@ export async function getBooksInfo({genreId, authorId, booksId}) {
   try {
     const { booksGenres, booksAuthors } = {
       booksGenres: allGenres.results.map(({ properties, id }) => {
-        return {
+        return properties['Total books'].rollup.number > 0 && {
           name: properties.Name.title[0].plain_text,
           id,
         }
-      }),
+      }).filter((genre) => genre),
       booksAuthors: allAuthors.results.map(({ properties, id }) => {
         return {
           authorName: properties.Name.title[0].plain_text,
