@@ -1,0 +1,1955 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "e3727c3e-1853-4d6e-b537-088ebcd14d53",
+      "created_time": "2024-08-02T02:21:00.000Z",
+      "last_edited_time": "2024-08-02T02:22:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "155c9ca8-694f-457a-ac0c-30f727455d6f"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "León Tolstoi",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "León Tolstoi",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " fue un gran novelista ruso, profundo pensador social y moral, y uno de los más grandes autores del realismo de todos los tiempos. Hijo de un terrateniente, nació en 1828 en Yásmaia Polonia, la cual era la propiedad agrícola de su familia en Moscú. Tuvo tutores franceses y alemanes, y a los 16 años, ingresó en la Universidad de Kazán, donde estudio lenguas y más tarde leyes. Abandonó sus estudios en 1847. Después de haber intentado mejorar las condiciones de vida de siervos de sus tierras, se metió de lleno en la disipada vida de alta sociedad aristocrática moscovita, a la que prometió en sus diarios gentilmente reformar. En 1851, decidió incorporarse también al Ejército ruso. Allí estuvo en contacto con los cosacos, que se convertirían en los protagonistas de una de sus mejores novelas cortas,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " fue un gran novelista ruso, profundo pensador social y moral, y uno de los más grandes autores del realismo de todos los tiempos. Hijo de un terrateniente, nació en 1828 en Yásmaia Polonia, la cual era la propiedad agrícola de su familia en Moscú. Tuvo tutores franceses y alemanes, y a los 16 años, ingresó en la Universidad de Kazán, donde estudio lenguas y más tarde leyes. Abandonó sus estudios en 1847. Después de haber intentado mejorar las condiciones de vida de siervos de sus tierras, se metió de lleno en la disipada vida de alta sociedad aristocrática moscovita, a la que prometió en sus diarios gentilmente reformar. En 1851, decidió incorporarse también al Ejército ruso. Allí estuvo en contacto con los cosacos, que se convertirían en los protagonistas de una de sus mejores novelas cortas,",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Los cosacos",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los cosacos",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (1863) en ella compara el cansancio y la juventud moscovita con el vigor y la vida al aire libre de los cosacos, que representa con simpatía y un profundo realismo poético. Concluyó una obra autobiográfica, llamada ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (1863) en ella compara el cansancio y la juventud moscovita con el vigor y la vida al aire libre de los cosacos, que representa con simpatía y un profundo realismo poético. Concluyó una obra autobiográfica, llamada ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Infancia",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Infancia",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (1852), a la que siguieron, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (1852), a la que siguieron, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Adolescencia",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Adolescencia",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (1854) y ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (1854) y ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Juventud",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Juventud",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (1856) en las cuales reveló una serie de recuerdos de carácter psicológico similares a los de la mayoría de los jóvenes. Estas obras fueron inmediatamente acogidas por el público, de igual modo que ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (1856) en las cuales reveló una serie de recuerdos de carácter psicológico similares a los de la mayoría de los jóvenes. Estas obras fueron inmediatamente acogidas por el público, de igual modo que ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Sebastopol",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Sebastopol",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (1855-1856), tres historias basadas en la guerra de Crimea. Tolstói regresó a San Petersburgo en 1856, y se sintió atraído por la educación de los campesinos. D",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (1855-1856), tres historias basadas en la guerra de Crimea. Tolstói regresó a San Petersburgo en 1856, y se sintió atraído por la educación de los campesinos. D",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://imagessl.casadellibro.com/img/autores/w/tolstoi_foto.webp",
+              "type": "external",
+              "external": {
+                "url": "https://imagessl.casadellibro.com/img/autores/w/tolstoi_foto.webp"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "León Tolstoi",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "León Tolstoi",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Le-n-Tolstoi-e3727c3e18534d6eb537088ebcd14d53",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "5e724acd-1074-4dbc-813a-6288cd3a944a",
+      "created_time": "2024-07-31T14:08:00.000Z",
+      "last_edited_time": "2024-07-31T14:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "720bc4c3-345e-4e11-b732-c20cedc10974"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "(Los Ángeles, California, 1949) Autora de una veintena de obras de ficción y ensayo. «Heredarás la tierra» (1991) le valió el Premio Pulitzer de narrativa y el Premio Nacional de la Crítica (National Book Critics Circle Award). Desde 2001 forma parte de la Academia Estadounidense de las Artes y las Letras. Entre otras obras, es autora de «The Greenlanders» (1988) y la trilogía formada por «Some Luck» (2014), «Early Warning» (2015) y «Golden Age» (2015). En Sexto Piso también hemos publicado «La edad del desconsuelo» (1987), «Un amor cualquiera» (1989) y «La mejor voluntad» (1989).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "(Los Ángeles, California, 1949) Autora de una veintena de obras de ficción y ensayo. «Heredarás la tierra» (1991) le valió el Premio Pulitzer de narrativa y el Premio Nacional de la Crítica (National Book Critics Circle Award). Desde 2001 forma parte de la Academia Estadounidense de las Artes y las Letras. Entre otras obras, es autora de «The Greenlanders» (1988) y la trilogía formada por «Some Luck» (2014), «Early Warning» (2015) y «Golden Age» (2015). En Sexto Piso también hemos publicado «La edad del desconsuelo» (1987), «Un amor cualquiera» (1989) y «La mejor voluntad» (1989).",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://imagessl.casadellibro.com/img/autores/w/9891.webp",
+              "type": "external",
+              "external": {
+                "url": "https://imagessl.casadellibro.com/img/autores/w/9891.webp"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Jane Smiley",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Jane Smiley",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Jane-Smiley-5e724acd10744dbc813a6288cd3a944a",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "df5cda00-a568-4462-81f3-b164cde4a5f3",
+      "created_time": "2024-07-31T13:53:00.000Z",
+      "last_edited_time": "2024-07-31T13:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "ff8f8b64-cc1c-4f44-9b6a-115d453af1f0"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "fue un cuentista y poeta estadounidense. Es considerado uno de los escritores más influyentes del siglo XX y de la literatura norteamericana",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "fue un cuentista y poeta estadounidense. Es considerado uno de los escritores más influyentes del siglo XX y de la literatura norteamericana",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://cdn.britannica.com/53/199353-050-2F2EEDF4/Raymond-Carver-1987.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://cdn.britannica.com/53/199353-050-2F2EEDF4/Raymond-Carver-1987.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Raymond Carver",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Raymond Carver",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Raymond-Carver-df5cda00a568446281f3b164cde4a5f3",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "189c02eb-a7a3-4049-9eea-43b14498b276",
+      "created_time": "2024-07-24T15:22:00.000Z",
+      "last_edited_time": "2024-07-24T15:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "28a5de65-4fd6-4926-8a9c-85964bc0935c"
+            },
+            {
+              "id": "a08674e2-6049-43ae-895e-be98c830c6d8"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 2,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fue uno de los principales escritores de la Rusia zarista, cuya literatura explora la psicología humana en el complejo contexto político, social y espiritual de la sociedad rusa de la segunda mitad del siglo XIX",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fue uno de los principales escritores de la Rusia zarista, cuya literatura explora la psicología humana en el complejo contexto político, social y espiritual de la sociedad rusa de la segunda mitad del siglo XIX",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://historia.nationalgeographic.com.es/medio/2021/11/05/retrato-del-escritor-ruso-fiodor-dostoievski-realizado-en-1876_ca5664cf_475x599.jpeg",
+              "type": "external",
+              "external": {
+                "url": "https://historia.nationalgeographic.com.es/medio/2021/11/05/retrato-del-escritor-ruso-fiodor-dostoievski-realizado-en-1876_ca5664cf_475x599.jpeg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fiódor Dostoyevski",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fiódor Dostoyevski",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Fi-dor-Dostoyevski-189c02eba7a340499eea43b14498b276",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "19a25e75-0aae-4ed0-a03b-9c5bbe69313d",
+      "created_time": "2024-07-24T15:14:00.000Z",
+      "last_edited_time": "2024-07-24T15:15:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "7c5e7389-5267-44b1-b048-a943c7b603f0"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Es una ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Es una ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "escritora, letrista, cantante y traductora japonesa",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "escritora, letrista, cantante y traductora japonesa",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". Estudió japonés clásico en la Universidad de Mujeres Seisen en Tokio. Se casó con un productor musical y estuvo escribiendo letras durante varios años.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". Estudió japonés clásico en la Universidad de Mujeres Seisen en Tokio. Se casó con un productor musical y estuvo escribiendo letras durante varios años.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://www.babelio.com/users/AVT_Ito-Ogawa_4156.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://www.babelio.com/users/AVT_Ito-Ogawa_4156.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Ito Ogawa",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Ito Ogawa",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Ito-Ogawa-19a25e750aae4ed0a03b9c5bbe69313d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "aa4ed6e3-d36e-4632-b8e6-295788888651",
+      "created_time": "2024-07-24T15:05:00.000Z",
+      "last_edited_time": "2024-07-24T15:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "3dd70671-68d7-4841-a07a-8d31dc3d14e1"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "José de Sousa Saramago fue un escritor portugués. En 1998 se le otorgó el Premio Nobel de Literatura. La Academia Sueca destacó su capacidad para «volver comprensible una realidad huidiza, con parábolas sostenidas por la imaginación, la compasión y la ironía",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://media.admagazine.com/photos/618a6a53a1fa32def5823100/master/w_1600%2Cc_limit/61391.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://media.admagazine.com/photos/618a6a53a1fa32def5823100/master/w_1600%2Cc_limit/61391.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Jose Saramago",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Jose Saramago",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Jose-Saramago-aa4ed6e3d36e4632b8e6295788888651",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "7c5882a9-ffc5-4646-8489-01214ba4c2de",
+      "created_time": "2024-07-24T14:47:00.000Z",
+      "last_edited_time": "2024-07-24T14:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "03b04a70-1a1f-455c-8a82-7223f6911de8"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Haruki Murakami es un escritor y traductor japonés, autor de novelas, relatos y ensayos. Sus libros han generado críticas positivas y obtenido numerosos premios, incluidos el Franz Kafka, el Mundial de Fantasía, el Jerusalén, el Hans Christian Andersen de Literatura y el Princesa de Asturias de las Letras.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Haruki Murakami es un escritor y traductor japonés, autor de novelas, relatos y ensayos. Sus libros han generado críticas positivas y obtenido numerosos premios, incluidos el Franz Kafka, el Mundial de Fantasía, el Jerusalén, el Hans Christian Andersen de Literatura y el Princesa de Asturias de las Letras.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://static01.nyt.com/images/2011/10/23/magazine/23murakami1_span/23murakami1_span-articleLarge.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://static01.nyt.com/images/2011/10/23/magazine/23murakami1_span/23murakami1_span-articleLarge.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": " Haruki Murakami",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Haruki Murakami",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Haruki-Murakami-7c5882a9ffc54646848901214ba4c2de",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "ece38261-8f63-4021-8ea5-d3b9c01ee8eb",
+      "created_time": "2024-07-24T14:35:00.000Z",
+      "last_edited_time": "2024-07-24T14:37:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "71953fdf-5108-4946-8685-829afe1a04b0"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Javier Zamora nació en El Salvador en 1990. Su padre huyó del país cuando él tenía un año, y su madre cuando él estaba a punto de cumplir cinco. Las migraciones de ambos padres fueron causadas por la Guerra Civil salvadoreña financiada por los EE. UU. Cuando él tenía nueve años, Javier emigró a través de Guatemala, México y el Desierto de Sonora. Su primera colección de poesía, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Javier Zamora nació en El Salvador en 1990. Su padre huyó del país cuando él tenía un año, y su madre cuando él estaba a punto de cumplir cinco. Las migraciones de ambos padres fueron causadas por la Guerra Civil salvadoreña financiada por los EE. UU. Cuando él tenía nueve años, Javier emigró a través de Guatemala, México y el Desierto de Sonora. Su primera colección de poesía, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Unaccompanied",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Unaccompanied",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", explora el impacto de la guerra y la inmigración en su familia. Zamora ha sido becario Stegner en Stanford y becario Radcliffe en Harvard, y posee becas de la National Endowment for the Arts y la Poetry Foundation.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", explora el impacto de la guerra y la inmigración en su familia. Zamora ha sido becario Stegner en Stanford y becario Radcliffe en Harvard, y posee becas de la National Endowment for the Arts y la Poetry Foundation.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/S/amzn-author-media-prod/up27mbcjg5ptsu4bcmmuv8s48v._SX300_CR0%2C0%2C300%2C300_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/S/amzn-author-media-prod/up27mbcjg5ptsu4bcmmuv8s48v._SX300_CR0%2C0%2C300%2C300_.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": " Javier Zamora",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Javier Zamora",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Javier-Zamora-ece382618f6340218ea5d3b9c01ee8eb",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "666e21d4-0184-42a6-a94e-2d30e85003b9",
+      "created_time": "2024-07-24T14:21:00.000Z",
+      "last_edited_time": "2024-07-24T14:23:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "14bde839-bce9-4378-932f-7a5fc79be94e"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Es una escritora, profesora de talleres literarios, letrista, articulista y editora española. Nació en Madrid. Se licenció en Filología Hispánica por la Universidad Complutense de Madrid, por la que también es máster en Estudios Literarios.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Es una escritora, profesora de talleres literarios, letrista, articulista y editora española. Nació en Madrid. Se licenció en Filología Hispánica por la Universidad Complutense de Madrid, por la que también es máster en Estudios Literarios.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://cdn.zendalibros.com/wp-content/uploads/marta_jimenez_foto-david-jimenez.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://cdn.zendalibros.com/wp-content/uploads/marta_jimenez_foto-david-jimenez.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Marta Jimenez Serrano",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Marta Jimenez Serrano",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Marta-Jimenez-Serrano-666e21d4018442a6a94e2d30e85003b9",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0db6140c-6185-4de7-9690-bf69d9361da5",
+      "created_time": "2024-07-18T12:31:00.000Z",
+      "last_edited_time": "2024-07-18T12:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "acf39984-bca7-411b-bb74-c4656693a944"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": []
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Mariana C. Acosta",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Mariana C. Acosta",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Mariana-C-Acosta-0db6140c61854de79690bf69d9361da5",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3b377d20-0410-4a40-9b6f-0bcc5b4a7a6a",
+      "created_time": "2024-07-18T03:37:00.000Z",
+      "last_edited_time": "2024-07-18T03:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "2187153f-f1cc-44d0-bf41-71531ea2890b"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Jennette Michelle Faye McCurdy,conocida como Jennette McCurdy, es una escritora, cineasta, exactriz y excantante estadounidense. Su interpretación como Sam Puckett en la comedia situacional iCarly, producida por Nickelodeon, le valió cuatro Kids Choice Awards, entre otros reconocimientos.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Jennette Michelle Faye McCurdy,conocida como Jennette McCurdy, es una escritora, cineasta, exactriz y excantante estadounidense. Su interpretación como Sam Puckett en la comedia situacional iCarly, producida por Nickelodeon, le valió cuatro Kids Choice Awards, entre otros reconocimientos.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/S/amzn-author-media-prod/n0nasggvtq7b0rkfqqm2o3r0o3._SY450_CR0%2C0%2C450%2C450_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/S/amzn-author-media-prod/n0nasggvtq7b0rkfqqm2o3r0o3._SY450_CR0%2C0%2C450%2C450_.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Jennette Mccurdy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Jennette Mccurdy",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Jennette-Mccurdy-3b377d2004104a409b6f0bcc5b4a7a6a",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "e02b5d1a-c07c-414c-b7df-0ae04f23cd3d",
+      "created_time": "2024-07-15T21:17:00.000Z",
+      "last_edited_time": "2024-07-15T21:18:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "0e225863-18f0-44af-bca1-1514c88ed5f8"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Sara Nisha Adams is a writer and editor. She lives in London and was born in Hertfordshire to Indian and English parents. Her debut novel The Reading List was a finalist in the Goodreads Choice Awards for Fiction 2021. Her second novel is The Twilight Garden.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Sara Nisha Adams is a writer and editor. She lives in London and was born in Hertfordshire to Indian and English parents. Her debut novel The Reading List was a finalist in the Goodreads Choice Awards for Fiction 2021. Her second novel is The Twilight Garden.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/S/amzn-author-media-prod/vtluljf7ocdtht0a2b3gsi4l3v._SY450_CR0%2C0%2C450%2C450_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/S/amzn-author-media-prod/vtluljf7ocdtht0a2b3gsi4l3v._SY450_CR0%2C0%2C450%2C450_.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Sara Nisha Adams",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Sara Nisha Adams",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Sara-Nisha-Adams-e02b5d1ac07c414cb7df0ae04f23cd3d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "6abd5363-c0c7-4d6d-b53a-66bc9377473d",
+      "created_time": "2024-07-15T21:11:00.000Z",
+      "last_edited_time": "2024-07-15T21:13:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "467c1201-8df4-44a0-9fc3-27897c78c60c"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Es un famoso escritor de libros de autoayuda, de los cuales algunas fueron ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Es un famoso escritor de libros de autoayuda, de los cuales algunas fueron ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "best seller",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "best seller",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", como por ejemplo: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", como por ejemplo: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Los 7 Hábitos de los Adolescentes Altamente Efectivos",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los 7 Hábitos de los Adolescentes Altamente Efectivos",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ".Sean nació en Belfast en 1964, mientras que su padre servía como el presidente de la misión irlandesa. Creció principalmente en Provo, UT. Sean se graduó de la Universidad de Brigham Young con un grado en inglés y más tarde ganó su MBA en la Escuela de negocios de Harvard.\n\nSean es el vicepresidente actualmente Mayor de Innovaciones y Productos en FranklinCovey.\n\nSean se casó con Rebecca Thachter.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ".Sean nació en Belfast en 1964, mientras que su padre servía como el presidente de la misión irlandesa. Creció principalmente en Provo, UT. Sean se graduó de la Universidad de Brigham Young con un grado en inglés y más tarde ganó su MBA en la Escuela de negocios de Harvard.\n\nSean es el vicepresidente actualmente Mayor de Innovaciones y Productos en FranklinCovey.\n\nSean se casó con Rebecca Thachter.\n\n",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://www.penguinlibros.com/es/c/3373-category_autores/sean-covey.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://www.penguinlibros.com/es/c/3373-category_autores/sean-covey.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Sean Covey",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Sean Covey",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Sean-Covey-6abd5363c0c74d6db53a66bc9377473d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "1bd54736-5494-4f49-8003-98d8a7f823f9",
+      "created_time": "2024-07-15T21:04:00.000Z",
+      "last_edited_time": "2024-07-15T21:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a287893c-dda3-4052-95fe-ba1d0851ccbf"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Es un novelista de fantasía y ciencia ficción, escritor de cómics, crítico literario, ensayista, activista político y profesor británico. A menudo sus trabajos son asociados al weird fiction o ficción extraña y al new weird. Miéville ha ganado numerosos premios, incluido el Premio Arthur C.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Es un novelista de fantasía y ciencia ficción, escritor de cómics, crítico literario, ensayista, activista político y profesor británico. A menudo sus trabajos son asociados al weird fiction o ficción extraña y al new weird. Miéville ha ganado numerosos premios, incluido el Premio Arthur C.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "licensed-image.jpeg",
+              "type": "file",
+              "file": {
+                "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/bb8cbd0d-8dc8-435c-b5f8-393eef202248/licensed-image.jpeg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T215420Z&X-Amz-Expires=3600&X-Amz-Signature=293fac82d8da77c6607bcf69991319fcb8cb0c1c864dc7e47626472f83ef725b&X-Amz-SignedHeaders=host&x-id=GetObject",
+                "expiry_time": "2024-08-03T22:54:20.905Z"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "China Miéville",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "China Miéville",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/China-Mi-ville-1bd5473654944f49800398d8a7f823f9",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "232e7906-da7f-4828-aae1-03ab9576330e",
+      "created_time": "2024-07-15T20:35:00.000Z",
+      "last_edited_time": "2024-07-15T23:42:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/user-circle-filled_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "e91d6f0b-69e6-4e3b-86ef-1e0f17de7c55"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Author Books": {
+          "id": "%3FaY%3F",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a4d83edc-dc62-46dc-b9e0-b3b3089c51a0"
+            },
+            {
+              "id": "cf70ac41-e09d-4558-9968-ed6de55613b0"
+            },
+            {
+              "id": "74cad76c-d2c2-45f7-b5ec-6ee36dfd56b2"
+            },
+            {
+              "id": "ab7e9196-2662-434d-8321-5168230cbbfa"
+            }
+          ],
+          "has_more": false
+        },
+        "Books": {
+          "id": "ZJ~M",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 4,
+            "function": "count"
+          }
+        },
+        "Bio": {
+          "id": "%5ErXn",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Joana Marcús, nacida en Mallorca en 2000, divide su tiempo entre sus estudios, sus libros y sus mascotas. Desde pequeña supo que le encantaba la escritura, aunque sus primeros textos solo fueron pequeños relatos. No fue hasta los trece años que se animó a publicar su primera historia completa en Wattpad, donde ha seguido escribiendo hasta la actualidad.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Joana Marcús, nacida en Mallorca en 2000, divide su tiempo entre sus estudios, sus libros y sus mascotas. Desde pequeña supo que le encantaba la escritura, aunque sus primeros textos solo fueron pequeños relatos. No fue hasta los trece años que se animó a publicar su primera historia completa en Wattpad, donde ha seguido escribiendo hasta la actualidad.",
+              "href": null
+            }
+          ]
+        },
+        "photo": {
+          "id": "bkxr",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/S/amzn-author-media-prod/gn1ocq0241abijvl8fgojnkm5q._SY450_CR0%2C0%2C450%2C450_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/S/amzn-author-media-prod/gn1ocq0241abijvl8fgojnkm5q._SY450_CR0%2C0%2C450%2C450_.jpg"
+              }
+            }
+          ]
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Jona Marcús",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Jona Marcús",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Jona-Marc-s-232e7906da7f4828aae103ab9576330e",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {},
+  "request_id": "e7a6e57a-4971-462c-80f6-ec7fbd814adf"
+}

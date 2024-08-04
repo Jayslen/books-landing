@@ -1,0 +1,1688 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "1e0e88ca-b3c8-40ff-a508-148052ca4163",
+      "created_time": "2024-07-31T14:06:00.000Z",
+      "last_edited_time": "2024-07-31T14:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/1602ddad-4ab0-4cb8-92b6-e42d64f1a1fa/novel.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=52b0d02111945bfa96579674e0f2d8f0402c3db5c79bc45b229825ae62206b13&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.742Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "720bc4c3-345e-4e11-b732-c20cedc10974"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Novel",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Novel",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Novel-1e0e88cab3c840ffa508148052ca4163",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "79537874-4bcb-436e-a8f1-6c613d354eff",
+      "created_time": "2024-07-18T12:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:56:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/51801afd-6389-4236-b560-a7b33aefc7be/romance.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=bd62f525024e25467b7cdce55a552724c8c15bdfb77bb910371a053987234503&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.661Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 2,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "acf39984-bca7-411b-bb74-c4656693a944"
+            },
+            {
+              "id": "ab7e9196-2662-434d-8321-5168230cbbfa"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Romance",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Romance",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Romance-795378744bcb436ea8f16c613d354eff",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "96990c4c-182b-4a95-a53b-775e903f9f0d",
+      "created_time": "2024-07-15T21:21:00.000Z",
+      "last_edited_time": "2024-07-24T14:52:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/f7d7315f-1182-44c7-8e00-dfe2642e4632/213.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=9ef7c1a10c21cac299717fe3ef13dd7b69cea2c922d3963f54c87c48558350ee&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.661Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 5,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "0e225863-18f0-44af-bca1-1514c88ed5f8"
+            },
+            {
+              "id": "14bde839-bce9-4378-932f-7a5fc79be94e"
+            },
+            {
+              "id": "03b04a70-1a1f-455c-8a82-7223f6911de8"
+            },
+            {
+              "id": "7c5e7389-5267-44b1-b048-a943c7b603f0"
+            },
+            {
+              "id": "ff8f8b64-cc1c-4f44-9b6a-115d453af1f0"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Literature",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Literature",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Literature-96990c4c182b4a95a53b775e903f9f0d",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "52c99df1-32fd-4a8f-b500-97ee4d4342af",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/c33c0c30-9dec-4c28-b454-a3517411bcdd/book.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=98ff7f8825e6019884a342737b60c3b533455b8e567e457db1213efea10bf63a&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.741Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 2,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "467c1201-8df4-44a0-9fc3-27897c78c60c"
+            },
+            {
+              "id": "acf39984-bca7-411b-bb74-c4656693a944"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Self Help",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Self Help",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Self-Help-52c99df132fd4a8fb50097ee4d4342af",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "75571c93-09f0-4a55-b2e2-988d6c6a40fe",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:54:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/images/page-cover/webb2.jpg"
+        }
+      },
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/6f411317-0c5c-4db4-aaba-aa15cc437108/science-fiction.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=fd80a2fd9a588d4f29fe41b88d798d4aa83cb576701f33dfdfc6afaa4f478be6&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.662Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a287893c-dda3-4052-95fe-ba1d0851ccbf"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Science Fiction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Science Fiction",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Science-Fiction-75571c9309f04a55b2e2988d6c6a40fe",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "9590555c-719e-4d40-b544-9bc36913b230",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-15T20:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/c1db32a6-8571-45c2-965d-ac6560722a48/audio-book.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=c42d970ff278ba90df255b49049673d577fc8983bed27124665ee9bb8e8ade19&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.662Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Audiobook",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Audiobook",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Audiobook-9590555c719e4d40b5449bc36913b230",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a46f513a-80a8-4a89-a4ce-800b2ded278f",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-18T03:48:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/d5984b88-3c93-4873-b708-027a058bef72/biography.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=589934a2e8af750d3e238ae30cb36628e57aeb44d110f4b4a63f17a631859340&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.662Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 2,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "2187153f-f1cc-44d0-bf41-71531ea2890b"
+            },
+            {
+              "id": "71953fdf-5108-4946-8685-829afe1a04b0"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Biography",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Biography",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Biography-a46f513a80a84a89a4ce800b2ded278f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b0cc08dd-0fa8-4571-b6ee-d6d78370ac8b",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-15T20:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/56ad5d39-5362-47c5-a96e-88e6e9b215ba/knowledge.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=daf525ccb13ef82fbfa639257a2f74efeba315954cbbd1ee21ff95ff65df2f19&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.663Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Non Fiction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Non Fiction",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Non-Fiction-b0cc08dd0fa84571b6eed6d78370ac8b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "111ca892-5e19-4f26-b45b-f320df370c15",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/a91187cf-4017-436a-898c-d958fac38f97/history.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=7740f8d45bd692b7712032904cc7e65c9fe29b597a3c5062c7c83cef0112657b&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.667Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "History",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "History",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/History-111ca8925e194f26b45bf320df370c15",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "8b4b062c-3d6f-4424-a24f-ecd03c038311",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:02:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/c1a5ead8-db07-4203-b773-da26bca103a8/art.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=3b68927292ee73fec19cb77975c4e8ff1ee3c86a9b97e07b845ffb45aaf148bc&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.663Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "ff8f8b64-cc1c-4f44-9b6a-115d453af1f0"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Art",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Art",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Art-8b4b062c3d6f4424a24fecd03c038311",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "9242c870-e58d-49e2-bfde-c861bf0efb86",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:03:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/b30f0d7e-584b-4205-a4b7-0a1ba89af164/classic.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=fd56f4df7500d3f9bd59dbd7507b096efe5d60aad2834e232611da35e6ae3381&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.663Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "28a5de65-4fd6-4926-8a9c-85964bc0935c"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Classics",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Classics",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Classics-9242c870e58d49e2bfdec861bf0efb86",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b6b86f61-1f58-4a05-9dbb-b8ae80fe3773",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-15T20:31:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Cyberpunk",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Cyberpunk",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Cyberpunk-b6b86f611f584a059dbbb8ae80fe3773",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "c66f4945-b891-4541-873e-458be0e0685e",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/bc1cae57-3e65-4591-bea3-3de4829a9d4d/yin-yang.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=fdac7caaec1aff2340e5dd15fdc60001b35f55567c7e3c4f50d7c3e06e45e418&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.664Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 2,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "3dd70671-68d7-4841-a07a-8d31dc3d14e1"
+            },
+            {
+              "id": "28a5de65-4fd6-4926-8a9c-85964bc0935c"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Philosophy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Philosophy",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Philosophy-c66f4945b8914541873e458be0e0685e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "f6f87aa9-46cb-4a04-a514-fd9e336e42ff",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:59:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/4cccab84-b618-43eb-b990-7f38533d6eff/science-book.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=6b2bee5cd2214f385b3a37a673fed3dcaa5f137d2a33e029439f52406f5c4055&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.664Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Psychology",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Psychology",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Psychology-f6f87aa946cb4a04a514fd9e336e42ff",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3b307703-4024-4551-a4a5-f1ffbd0c3a4a",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:00:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/f5e320ca-2749-4060-af47-eed04d5e38e8/science-book_%281%29.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=089cb0f87d27f89c6c149d43cd6946916432dec222ac15426cec7fddfaf9cca8&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.664Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Science",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Science",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Science-3b30770340244551a4a5f1ffbd0c3a4a",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "42900e23-e94c-4c4c-bd45-a2e98d41041e",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:01:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/79b13d09-1315-4335-84dd-b829ad3e4858/book-keeping.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=e8bd701863650c7b0b2263578f99181fd6636633e3da76e8c57eccfa0791d6a8&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.665Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Business",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Business",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Business-42900e23e94c4c4cbd45a2e98d41041e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "4968c950-1833-41f5-98c0-1af246835aab",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T15:09:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/3f51be28-6441-4478-9475-45df28a398de/fantasy.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=e3c3e133bffb856fa2278f02fad6c751f5dc08f239c49c82517b9203b9999027&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.665Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 10,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a4d83edc-dc62-46dc-b9e0-b3b3089c51a0"
+            },
+            {
+              "id": "cf70ac41-e09d-4558-9968-ed6de55613b0"
+            },
+            {
+              "id": "74cad76c-d2c2-45f7-b5ec-6ee36dfd56b2"
+            },
+            {
+              "id": "0e225863-18f0-44af-bca1-1514c88ed5f8"
+            },
+            {
+              "id": "14bde839-bce9-4378-932f-7a5fc79be94e"
+            },
+            {
+              "id": "03b04a70-1a1f-455c-8a82-7223f6911de8"
+            },
+            {
+              "id": "3dd70671-68d7-4841-a07a-8d31dc3d14e1"
+            },
+            {
+              "id": "7c5e7389-5267-44b1-b048-a943c7b603f0"
+            },
+            {
+              "id": "ff8f8b64-cc1c-4f44-9b6a-115d453af1f0"
+            },
+            {
+              "id": "a08674e2-6049-43ae-895e-be98c830c6d8"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fiction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fiction",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Fiction-4968c950183341f598c01af246835aab",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "b2b7d2d1-5137-4bca-9aaf-41c2947240a2",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:53:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/bf2f7601-1be7-432a-8c00-bd44abfb5e9c/magic-book.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=5d3fa9fa5307d21063268d77eccb84131a75807cd6e3379483175a6f449514f2&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.665Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a287893c-dda3-4052-95fe-ba1d0851ccbf"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fantasy",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fantasy",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Fantasy-b2b7d2d151374bca9aaf41c2947240a2",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "49976352-f5c0-4c03-b299-be20d85f0ab1",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:55:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/f3758a31-b385-4574-8ac2-9b1fb8a06a5c/detective-story.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=d35da5c9e7551a1cbd132afa48a91dc40f686bc54a3af1e4070423ec6006077c&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.666Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 1,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a287893c-dda3-4052-95fe-ba1d0851ccbf"
+            }
+          ],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thriller",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thriller",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Thriller-49976352f5c04c03b299be20d85f0ab1",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "6db6a03a-c9ee-4db0-a3af-ec90c1a2ac16",
+      "created_time": "2024-07-15T20:31:00.000Z",
+      "last_edited_time": "2024-07-24T14:58:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "file",
+        "file": {
+          "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/72558e10-c8c3-4ce5-bdc5-8f5f019c8dbf/mythology.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240803%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240803T225114Z&X-Amz-Expires=3600&X-Amz-Signature=d4d04c5d19b6bda8c751e5ce93d99505e588c15c649ab719e10267fc105a9f14&X-Amz-SignedHeaders=host&x-id=GetObject",
+          "expiry_time": "2024-08-03T23:51:14.666Z"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0b424cbe-27d7-435e-be1e-87f7bb9c747d"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Total books": {
+          "id": "EZ%7Cz",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "count"
+          }
+        },
+        "all books": {
+          "id": "T%3B%3Az",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Read This Year": {
+          "id": "e%3EDX",
+          "type": "rollup",
+          "rollup": {
+            "type": "number",
+            "number": 0,
+            "function": "not_empty"
+          }
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Mythology",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Mythology",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Mythology-6db6a03ac9ee4db0a3afec90c1a2ac16",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {},
+  "request_id": "01802b9f-5097-4176-b605-05a11891930b"
+}

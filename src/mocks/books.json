@@ -1,0 +1,4254 @@
+{
+  "object": "list",
+  "results": [
+    {
+      "object": "page",
+      "id": "155c9ca8-694f-457a-ac0c-30f727455d6f",
+      "created_time": "2024-08-02T02:20:00.000Z",
+      "last_edited_time": "2024-08-02T02:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/4173oy+Mg0L._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/4173oy+Mg0L._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2011
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "e3727c3e-1853-4d6e-b537-088ebcd14d53"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Escrito en 1886, ¿Cuánta tierra necesita un hombre? es una modernísima parábola sobre la ambición del ser humano. Pajom es un campesino al que ninguna extensión de tierra satisface: cuanta más tiene, más necesita. Al conocer que los habitantes de una lejana región, los bashkirios, le ofrecen tanta tierra como pueda recorrer en un día, no lo dudará e intentará abarcar la mayor cantidad posible... La prosa de Tolstói decía Nabokov late al ritmo de nuestro corazón. Elena Odriozola (Segundo Premio Nacional de Ilustración 2006) ha captado ese pulso narrativo y nos lleva con sus imágenes a la tierra que vio nacer a Pajom, permitiendonos acompañarle en su viaje por la estepa rusa, marcado por el ritmo de su ambición. Las vacas serán testigo de ese afán.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Escrito en 1886, ¿Cuánta tierra necesita un hombre? es una modernísima parábola sobre la ambición del ser humano. Pajom es un campesino al que ninguna extensión de tierra satisface: cuanta más tiene, más necesita. Al conocer que los habitantes de una lejana región, los bashkirios, le ofrecen tanta tierra como pueda recorrer en un día, no lo dudará e intentará abarcar la mayor cantidad posible... La prosa de Tolstói decía Nabokov late al ritmo de nuestro corazón. Elena Odriozola (Segundo Premio Nacional de Ilustración 2006) ha captado ese pulso narrativo y nos lleva con sus imágenes a la tierra que vio nacer a Pajom, permitiendonos acompañarle en su viaje por la estepa rusa, marcado por el ritmo de su ambición. Las vacas serán testigo de ese afán.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 68
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿Cuanta tierra necesita un hombre?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿Cuanta tierra necesita un hombre?",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Cuanta-tierra-necesita-un-hombre-155c9ca8694f457aac0c30f727455d6f",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a08674e2-6049-43ae-895e-be98c830c6d8",
+      "created_time": "2024-08-02T02:15:00.000Z",
+      "last_edited_time": "2024-08-02T02:19:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://imagessl7.casadellibro.com/a/l/s7/47/9788416440047.webp",
+              "type": "external",
+              "external": {
+                "url": "https://imagessl7.casadellibro.com/a/l/s7/47/9788416440047.webp"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2015
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "189c02eb-a7a3-4049-9eea-43b14498b276"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Un joven solitario e introvertido narra cómo conoce de forma accidental a una muchacha durante una “noche blanca”, fenómeno que se da en la ciudad rusa durante la época del solsticio de verano y a causa del cual la oscuridad nunca es completa. Tras el primer encuentro, la pareja de desconocidos se citará durante las cuatro noches siguientes, noches en las que la chica, de nombre Nastenka, relatará su triste historia, y en las que harán acto de presencia, de forma sutil y envolvente, las grandes pasiones que mueven al ser humano: el amor, la ilusión, la esperanza, el desamor, el desengaño.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Un joven solitario e introvertido narra cómo conoce de forma accidental a una muchacha durante una “noche blanca”, fenómeno que se da en la ciudad rusa durante la época del solsticio de verano y a causa del cual la oscuridad nunca es completa. Tras el primer encuentro, la pareja de desconocidos se citará durante las cuatro noches siguientes, noches en las que la chica, de nombre Nastenka, relatará su triste historia, y en las que harán acto de presencia, de forma sutil y envolvente, las grandes pasiones que mueven al ser humano: el amor, la ilusión, la esperanza, el desamor, el desengaño.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": null
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 77
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Noches blancas",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Noches blancas",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Noches-blancas-a08674e2604943ae895ebe98c830c6d8",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "720bc4c3-345e-4e11-b732-c20cedc10974",
+      "created_time": "2024-07-31T14:05:00.000Z",
+      "last_edited_time": "2024-07-31T14:10:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://imagessl6.casadellibro.com/a/l/s7/36/9788417517236.webp",
+              "type": "external",
+              "external": {
+                "url": "https://imagessl6.casadellibro.com/a/l/s7/36/9788417517236.webp"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2019
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "5e724acd-1074-4dbc-813a-6288cd3a944a"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "«Nunca más volveré a ser feliz», musita Dana en el asiento trasero del coche familiar, sin reparar en que piensa en voz alta. Al oírlo, Dave, su marido, siente que ambos están a punto de perder todo aquello que una vez desearon: sus años de apacible matrimonio, tres hijas, la próspera clínica dental que comparten. Ahora Dave está convencido de que Dana se ha enamorado de otro hombre y, de manera inesperada, decide que la mejor manera de salvar su relación es evitar que su esposa descubra que él lo sabe.En ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "«Nunca más volveré a ser feliz», musita Dana en el asiento trasero del coche familiar, sin reparar en que piensa en voz alta. Al oírlo, Dave, su marido, siente que ambos están a punto de perder todo aquello que una vez desearon: sus años de apacible matrimonio, tres hijas, la próspera clínica dental que comparten. Ahora Dave está convencido de que Dana se ha enamorado de otro hombre y, de manera inesperada, decide que la mejor manera de salvar su relación es evitar que su esposa descubra que él lo sabe.En ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "La edad del desconsuelo",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "La edad del desconsuelo",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", Jane Smiley narra con asombrosa autenticidad los ritmos de lo cotidiano y cómo de pronto se ven sacudidos por una emoción inesperada, dando lugar a situaciones tragicómicas y a una demoledora meditación sobre la vida en pareja, la pérdida y la infelicidad.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", Jane Smiley narra con asombrosa autenticidad los ritmos de lo cotidiano y cómo de pronto se ven sacudidos por una emoción inesperada, dando lugar a situaciones tragicómicas y a una demoledora meditación sobre la vida en pareja, la pérdida y la infelicidad.\n\n",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 84
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "1e0e88ca-b3c8-40ff-a508-148052ca4163"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "La edad del desconsuelo",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "La edad del desconsuelo",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/La-edad-del-desconsuelo-720bc4c3345e4e11b732c20cedc10974",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "ff8f8b64-cc1c-4f44-9b6a-115d453af1f0",
+      "created_time": "2024-07-31T13:52:00.000Z",
+      "last_edited_time": "2024-07-31T14:04:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41QUgEHWqrL._SY342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41QUgEHWqrL._SY342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": null
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "df5cda00-a568-4462-81f3-b164cde4a5f3"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Los deslumbrados lectores de ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los deslumbrados lectores de ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Catedral",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Catedral",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", primer libro publicado en España de Carver, reencontrarán en ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", primer libro publicado en España de Carver, reencontrarán en ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "De qué hablamos cuando hablamos de amor",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "De qué hablamos cuando hablamos de amor",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " la atmósfera y los personajes de un autor que dominó indiscutiblemente el panorama literario norteamericano de los años 80.Parejas que se despedazan, compañeros que parten desesperadamente a la aventura, hijos que intentan comunicarse con sus padres, un universo injusto, violento, tenso, a veces irrisorio… En palabras de Roberto Fernández Sastre, Carver «no designa lo intolerable, sino que lo nombra. Sin concesiones hacia nada ni hacia nadie, rescata lo real en su esencialidad amorfa y brutal».«La narrativa de Carver es tan escueta que toma un tiempo darse cuenta de hasta qué punto la totalidad de una cultura y de una condición moral está representada incluso por el bosquejo aparentemente más tenue.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " la atmósfera y los personajes de un autor que dominó indiscutiblemente el panorama literario norteamericano de los años 80.Parejas que se despedazan, compañeros que parten desesperadamente a la aventura, hijos que intentan comunicarse con sus padres, un universo injusto, violento, tenso, a veces irrisorio… En palabras de Roberto Fernández Sastre, Carver «no designa lo intolerable, sino que lo nombra. Sin concesiones hacia nada ni hacia nadie, rescata lo real en su esencialidad amorfa y brutal».«La narrativa de Carver es tan escueta que toma un tiempo darse cuenta de hasta qué punto la totalidad de una cultura y de una condición moral está representada incluso por el bosquejo aparentemente más tenue.\n\n",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 120
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "96990c4c-182b-4a95-a53b-775e903f9f0d"
+            },
+            {
+              "id": "8b4b062c-3d6f-4424-a24f-ecd03c038311"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿De que hablamos cuando hablamos de amor?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿De que hablamos cuando hablamos de amor?",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/De-que-hablamos-cuando-hablamos-de-amor-ff8f8b64cc1c4f449b6a115d453af1f0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "ab7e9196-2662-434d-8321-5168230cbbfa",
+      "created_time": "2024-07-24T15:25:00.000Z",
+      "last_edited_time": "2024-07-24T15:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41fTwQLuMVL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41fTwQLuMVL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2024
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "232e7906-da7f-4828-aae1-03ab9576330e"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Caleb no es un chico corriente. Ha tenido una vida complicada, quizá por las habilidades especiales que lo convierten, a sus ojos, en un monstruo. El destino lo ha llevado a trabajar para gente de moral dudosa, a hacer cosas que le han manchado las manos y el alma.\n\nEntonces, una de sus misiones se complica y se le asigna vigilar a Victoria, una humana tan normal como cualquier otra, con un trabajo rutinario, un apartamento pequeño y un gato extraño.\n\nDebería ser el trabajo más fácil del mundo, pero termina teniendo que elegir entre el mundo que conoce y la única persona que alguna vez le ha importado.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Caleb no es un chico corriente. Ha tenido una vida complicada, quizá por las habilidades especiales que lo convierten, a sus ojos, en un monstruo. El destino lo ha llevado a trabajar para gente de moral dudosa, a hacer cosas que le han manchado las manos y el alma.\n\nEntonces, una de sus misiones se complica y se le asigna vigilar a Victoria, una humana tan normal como cualquier otra, con un trabajo rutinario, un apartamento pequeño y un gato extraño.\n\nDebería ser el trabajo más fácil del mundo, pero termina teniendo que elegir entre el mundo que conoce y la única persona que alguna vez le ha importado.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 528
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "79537874-4bcb-436e-a8f1-6c613d354eff"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Etéreo",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Etéreo",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Et-reo-ab7e91962662434d83215168230cbbfa",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "28a5de65-4fd6-4926-8a9c-85964bc0935c",
+      "created_time": "2024-07-24T15:19:00.000Z",
+      "last_edited_time": "2024-07-24T15:24:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://www.elejandria.com/covers/Crimen_y_castigo-Dostoyevski_Fiodor-md.png",
+              "type": "external",
+              "external": {
+                "url": "https://www.elejandria.com/covers/Crimen_y_castigo-Dostoyevski_Fiodor-md.png"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2011
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "189c02eb-a7a3-4049-9eea-43b14498b276"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\"Una tarde muy calurosa de principios de julio, salió del cuartito que ocupaba, junto al techo de una gran casa de cinco pisos, un joven, que, lentamente y con aire irresoluto, se dirigió hacia el puente de K***. Tuvo suerte, al bajar la escalera, de no encontrarse a su patrona que habitaba en el piso cuarto, y cuya cocina, que tenía la puerta constantemente sin cerrar, daba a la escalera. Cuando salía el joven, había de pasar forzosamente bajo el fuego del enemigo, y cada vez que esto ocurría experimentaba aquél una molesta sensación de temor que, humillándole, le hacía fruncir el entrecejo. Tenía una deuda no pequeña con su patrona y le daba vergüenza el encontrarla.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\"Una tarde muy calurosa de principios de julio, salió del cuartito que ocupaba, junto al techo de una gran casa de cinco pisos, un joven, que, lentamente y con aire irresoluto, se dirigió hacia el puente de K***. Tuvo suerte, al bajar la escalera, de no encontrarse a su patrona que habitaba en el piso cuarto, y cuya cocina, que tenía la puerta constantemente sin cerrar, daba a la escalera. Cuando salía el joven, había de pasar forzosamente bajo el fuego del enemigo, y cada vez que esto ocurría experimentaba aquél una molesta sensación de temor que, humillándole, le hacía fruncir el entrecejo. Tenía una deuda no pequeña con su patrona y le daba vergüenza el encontrarla.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 549
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "9242c870-e58d-49e2-bfde-c861bf0efb86"
+            },
+            {
+              "id": "c66f4945-b891-4541-873e-458be0e0685e"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Crimen y castigo",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Crimen y castigo",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Crimen-y-castigo-28a5de654fd649268a9c85964bc0935c",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "7c5e7389-5267-44b1-b048-a943c7b603f0",
+      "created_time": "2024-07-24T15:13:00.000Z",
+      "last_edited_time": "2024-07-24T15:17:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41mMNpADvYL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41mMNpADvYL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2024
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "19a25e75-0aae-4ed0-a03b-9c5bbe69313d"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Hatoko Amemiya acaba de regresar a Kamakura, el pueblo costero donde creció al cuidado de su abuela, para reanudar el negocio familiar de una papelería. La suya es una estirpe de escribientes, un antiguo oficio que Hatoko está decidida a honrar y hacer pervivir en el tiempo a través de los pequeños encargos que los clientes le encomiendan: cómo despedirse de alguien, saludar a un recién llegado o recordar la dulzura de un primer amor, todo tiene cabida dentro de los márgenes de una carta, las cuales Hatoko se ocupa de confeccionar con delicadeza, escogiendo el sello adecuado, las palabras, la tinta y el gramaje exactos para cada una de ellas . Ito Ogawa teje a un relato conmovedor sobre los detalles que rellenan el día a día de cualquier comunidad, todo ello retenido de fondo con los paisajes, la gastronomía y las festividades japonesas que acompañan y celebran el paso de las estaciones del año, el relieve de afectos y enseñanzas que heredamos como cartas abiertas de generación en generación.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Hatoko Amemiya acaba de regresar a Kamakura, el pueblo costero donde creció al cuidado de su abuela, para reanudar el negocio familiar de una papelería. La suya es una estirpe de escribientes, un antiguo oficio que Hatoko está decidida a honrar y hacer pervivir en el tiempo a través de los pequeños encargos que los clientes le encomiendan: cómo despedirse de alguien, saludar a un recién llegado o recordar la dulzura de un primer amor, todo tiene cabida dentro de los márgenes de una carta, las cuales Hatoko se ocupa de confeccionar con delicadeza, escogiendo el sello adecuado, las palabras, la tinta y el gramaje exactos para cada una de ellas . Ito Ogawa teje a un relato conmovedor sobre los detalles que rellenan el día a día de cualquier comunidad, todo ello retenido de fondo con los paisajes, la gastronomía y las festividades japonesas que acompañan y celebran el paso de las estaciones del año, el relieve de afectos y enseñanzas que heredamos como cartas abiertas de generación en generación.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 197
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "96990c4c-182b-4a95-a53b-775e903f9f0d"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "La papelería Tsubak",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "La papelería Tsubak",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/La-papeler-a-Tsubak-7c5e7389526744b1b048a943c7b603f0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "3dd70671-68d7-4841-a07a-8d31dc3d14e1",
+      "created_time": "2024-07-24T15:04:00.000Z",
+      "last_edited_time": "2024-07-24T15:11:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/81URlY8zAiL._SY342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/81URlY8zAiL._SY342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2005
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "aa4ed6e3-d36e-4632-b8e6-295788888651"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "En un país cuyo nombre no será mencionado, se produce algo nunca visto  desde el principio del mundo: la muerte decide suspender su trabajo  letal, la gente deja de morir. La euforia colectiva se desata, pero muy  pronto dará paso a la desesperación y al caos. Sobran los motivos. Si es  cierto que las personas ya no mueren, eso no significa que el tiempo se  haya detenido. El destino de los humanos será una vejez eterna.\n\nSe buscarán maneras de forzar a la muerte a matar aunque no lo quiera,  se corromperán las conciencias en los «acuerdos de caballeros»  explícitos o tácitos entre el poder político, las mafias y las familias,  los ancianos serán detestados por haberse convertido en estorbos irremovibles. Hasta el día en que la muerte decide volver…",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "En un país cuyo nombre no será mencionado, se produce algo nunca visto  desde el principio del mundo: la muerte decide suspender su trabajo  letal, la gente deja de morir. La euforia colectiva se desata, pero muy  pronto dará paso a la desesperación y al caos. Sobran los motivos. Si es  cierto que las personas ya no mueren, eso no significa que el tiempo se  haya detenido. El destino de los humanos será una vejez eterna.\n\nSe buscarán maneras de forzar a la muerte a matar aunque no lo quiera,  se corromperán las conciencias en los «acuerdos de caballeros»  explícitos o tácitos entre el poder político, las mafias y las familias,  los ancianos serán detestados por haberse convertido en estorbos irremovibles. Hasta el día en que la muerte decide volver…",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 175
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "c66f4945-b891-4541-873e-458be0e0685e"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Las intermitencias de la muerte",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Las intermitencias de la muerte",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Las-intermitencias-de-la-muerte-3dd7067168d74841a07a8d31dc3d14e1",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "03b04a70-1a1f-455c-8a82-7223f6911de8",
+      "created_time": "2024-07-24T14:46:00.000Z",
+      "last_edited_time": "2024-07-24T14:51:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41oKQvc06kL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41oKQvc06kL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2013
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "7c5882a9-ffc5-4646-8489-01214ba4c2de"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Los años de peregrinación del chico sin color",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los años de peregrinación del chico sin color",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", de ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", de ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Haruki Murakami",
+                "link": {
+                  "url": "https://www.casadellibro.com/libros-ebooks/haruki-murakami/22027"
+                }
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Haruki Murakami",
+              "href": "https://www.casadellibro.com/libros-ebooks/haruki-murakami/22027"
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", autor de otras obras de la ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", autor de otras obras de la ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "narrativa extranjera",
+                "link": {
+                  "url": "https://www.casadellibro.com/libros/narrativa-extranjera/128008000/3/2"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "narrativa extranjera",
+              "href": "https://www.casadellibro.com/libros/narrativa-extranjera/128008000/3/2"
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " como ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " como ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "1Q84",
+                "link": {
+                  "url": "https://www.casadellibro.com/libro-1q84-libros-1-y-2/9788483835999/1945031"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1Q84",
+              "href": "https://www.casadellibro.com/libro-1q84-libros-1-y-2/9788483835999/1945031"
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " o ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " o ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Tokio Blues",
+                "link": {
+                  "url": "https://www.casadellibro.com/libro-tokio-blues/9788483103074/1033873"
+                }
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Tokio Blues",
+              "href": "https://www.casadellibro.com/libro-tokio-blues/9788483103074/1033873"
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", es una entrañable novela sobre la amistad, el amor y la soledad de aquellos que todavía no han encontrado su lugar en el mundo. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", es una entrañable novela sobre la amistad, el amor y la soledad de aquellos que todavía no han encontrado su lugar en el mundo. ",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 247
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "96990c4c-182b-4a95-a53b-775e903f9f0d"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Los años de peregrinación del chico sin color",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los años de peregrinación del chico sin color",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Los-a-os-de-peregrinaci-n-del-chico-sin-color-03b04a701a1f455c8a827223f6911de8",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "71953fdf-5108-4946-8685-829afe1a04b0",
+      "created_time": "2024-07-24T14:33:00.000Z",
+      "last_edited_time": "2024-07-24T14:39:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/71vshwpz8RL._SY466_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/71vshwpz8RL._SY466_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2022
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "ece38261-8f63-4021-8ea5-d3b9c01ee8eb"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Con tan solo nueve años, Javier Zamora emprendió un viaje de cinco mil kilómetros de El Salvador a Estados Unidos para reencontrarse con sus padres, dejando atrás todo lo que le era familiar. En compañía de un grupo de desconocidos guiados por un coyote, el recorrido que iba a durar dos semanas se convirtió en una imposible odisea de casi dos meses, cambiándole la vida para siempre. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Con tan solo nueve años, Javier Zamora emprendió un viaje de cinco mil kilómetros de El Salvador a Estados Unidos para reencontrarse con sus padres, dejando atrás todo lo que le era familiar. En compañía de un grupo de desconocidos guiados por un coyote, el recorrido que iba a durar dos semanas se convirtió en una imposible odisea de casi dos meses, cambiándole la vida para siempre. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Solito ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Solito ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " es el relato de esa experiencia, el testimonio inolvidable de un largo y angustioso periplo, pero tambien un libro lleno de amor, bondad y agradecimiento. Es la historia de Javier, pero tambien la historia de millones que no tuvieron otra opción que abandonar su hogar.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " es el relato de esa experiencia, el testimonio inolvidable de un largo y angustioso periplo, pero tambien un libro lleno de amor, bondad y agradecimiento. Es la historia de Javier, pero tambien la historia de millones que no tuvieron otra opción que abandonar su hogar.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 398
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a46f513a-80a8-4a89-a4ce-800b2ded278f"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Solito",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Solito",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Solito-71953fdf510849468685829afe1a04b0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "14bde839-bce9-4378-932f-7a5fc79be94e",
+      "created_time": "2024-07-24T14:21:00.000Z",
+      "last_edited_time": "2024-07-24T14:33:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41AmakzENNL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41AmakzENNL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2021
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "666e21d4-0184-42a6-a94e-2d30e85003b9"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿Quién es Belaundia Fu? Es la mejor amiga de Marta a los siete años: la amiga invisible que, en esos momentos en que las cosas no salen como había planeado y ni siquiera la abuela es capaz de consolarla, se sienta con ella y espera hasta que se le pase. Belaundia Fu es la voz sensata, ideal e infalible que, cuando Marta tiene dieciséis años y pese a que prefiera no escucharlas, le dice las verdades a la cara: por ejemplo, que ese chico, Charlie, no le conviene. Pero cuando Marta ya ha cumplido veintidós, cuando ya se ha licenciado, cuando está empezando a tomar las decisiones que van a marcar el resto de su vida, ¿qué hace aún ahí Belaundia Fu? Ahí sigue porque es quien, desde siempre, le narra a Marta su propia historia. ¿Quién es Belaundia Fu?, nos preguntamos; y, sin embargo, la pregunta que verdaderamente importa es: ¿quién es Marta? Luminosa y emocionante, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿Quién es Belaundia Fu? Es la mejor amiga de Marta a los siete años: la amiga invisible que, en esos momentos en que las cosas no salen como había planeado y ni siquiera la abuela es capaz de consolarla, se sienta con ella y espera hasta que se le pase. Belaundia Fu es la voz sensata, ideal e infalible que, cuando Marta tiene dieciséis años y pese a que prefiera no escucharlas, le dice las verdades a la cara: por ejemplo, que ese chico, Charlie, no le conviene. Pero cuando Marta ya ha cumplido veintidós, cuando ya se ha licenciado, cuando está empezando a tomar las decisiones que van a marcar el resto de su vida, ¿qué hace aún ahí Belaundia Fu? Ahí sigue porque es quien, desde siempre, le narra a Marta su propia historia. ¿Quién es Belaundia Fu?, nos preguntamos; y, sin embargo, la pregunta que verdaderamente importa es: ¿quién es Marta? Luminosa y emocionante, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Los nombres propios",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los nombres propios",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " es una indagación sobre la identidad y la relación que establecemos con el mundo que nos rodea. Dominada por una voz narrativa de una madurez excepcional, la primera novela de Marta Jiménez Serrano reflexiona acerca de cómo llegamos a convertirnos en quienes somos, sobre el hecho mismo de crecer y la manera en que lo hacemos: aprendiendo a nombrar aquello que nos importa.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " es una indagación sobre la identidad y la relación que establecemos con el mundo que nos rodea. Dominada por una voz narrativa de una madurez excepcional, la primera novela de Marta Jiménez Serrano reflexiona acerca de cómo llegamos a convertirnos en quienes somos, sobre el hecho mismo de crecer y la manera en que lo hacemos: aprendiendo a nombrar aquello que nos importa.\n\n",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 194
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "96990c4c-182b-4a95-a53b-775e903f9f0d"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Los nombres propios",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los nombres propios",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Los-nombres-propios-14bde839bce94378932f7a5fc79be94e",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "acf39984-bca7-411b-bb74-c4656693a944",
+      "created_time": "2024-07-18T12:29:00.000Z",
+      "last_edited_time": "2024-07-18T17:50:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/c5/d5/31/c5d531ac-7b6e-475d-0458-085aa377e7aa/cover.png/313x0w.webp",
+              "type": "external",
+              "external": {
+                "url": "https://is1-ssl.mzstatic.com/image/thumb/Publication115/v4/c5/d5/31/c5d531ac-7b6e-475d-0458-085aa377e7aa/cover.png/313x0w.webp"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2021
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": {
+            "start": "2024-07-18",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 1
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": {
+            "id": "Qqm^",
+            "name": "⭐⭐⭐",
+            "color": "default"
+          }
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": {
+            "start": "2024-07-18",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "f4221c56-547e-4b37-b2cb-06f7e765887b",
+            "name": "Read",
+            "color": "green"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 2024
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "0db6140c-6185-4de7-9690-bf69d9361da5"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿Quieres que tu relación dure y no sabes que se necesita para poder mantenerla? ¿Las personas te han dicho que se necesita tener sexo para mantener a tu pareja contigo? ¡Tu puedes descifrarlo y ponerlo en practica!.\n\nEn ¿O por sexo o por amor? la escritora Mariana C. Acosta te expondrá todos sus pensamientos acerca de dicho tema para que tu no fracases y vayas con más seguridad a tus futuras relaciones, o si ya estas en una actualmente, logres ver lo que realmente es lo que quieres y que no pierdas tu tiempo ni hagas perder el tiempo a la otra persona. En él enfatiza que una relación no dura ni por sexo... ni por amor. ¿Tú sabes por que dura si no es por sexo ni por amor? entra y averigualo.\n\nEste es sólo una parte del libro \"¿O por sexo o por amor?\". Debido al gran alcance y buena aceptacion que ha tenido por parte del publico, habrá una segunda edición ya con el contenido completo y actualizado.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿Quieres que tu relación dure y no sabes que se necesita para poder mantenerla? ¿Las personas te han dicho que se necesita tener sexo para mantener a tu pareja contigo? ¡Tu puedes descifrarlo y ponerlo en practica!.\n\nEn ¿O por sexo o por amor? la escritora Mariana C. Acosta te expondrá todos sus pensamientos acerca de dicho tema para que tu no fracases y vayas con más seguridad a tus futuras relaciones, o si ya estas en una actualmente, logres ver lo que realmente es lo que quieres y que no pierdas tu tiempo ni hagas perder el tiempo a la otra persona. En él enfatiza que una relación no dura ni por sexo... ni por amor. ¿Tú sabes por que dura si no es por sexo ni por amor? entra y averigualo.\n\nEste es sólo una parte del libro \"¿O por sexo o por amor?\". Debido al gran alcance y buena aceptacion que ha tenido por parte del publico, habrá una segunda edición ya con el contenido completo y actualizado.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": true
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 21
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 21
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "52c99df1-32fd-4a8f-b500-97ee4d4342af"
+            },
+            {
+              "id": "79537874-4bcb-436e-a8f1-6c613d354eff"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿O por sexo, o por amor?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿O por sexo, o por amor?",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/O-por-sexo-o-por-amor-acf39984bca7411bbb74c4656693a944",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "2187153f-f1cc-44d0-bf41-71531ea2890b",
+      "created_time": "2024-07-18T03:37:00.000Z",
+      "last_edited_time": "2024-07-18T03:41:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": null,
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/715ZMgc2RbL._SY342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/715ZMgc2RbL._SY342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2023
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "3b377d20-0410-4a40-9b6f-0bcc5b4a7a6a"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "En estas desgarradoras e hilarantes memorias, Jennette McCurdy, protagonista de las series de televisión iCarly y Sam & Cat, relata sus problemas como actriz infantil --trastornos alimentarios, adicciones y una complicada relación con su autoritaria madre-- y cómo retomó el control de su vida.Jennette McCurdy tenía seis años cuando tuvo su primera audición para actuar. El sueño de su madre era que su única hija se convirtiera en una estrella y Jennette habría hecho cualquier cosa para hacer feliz a su madre. Así que hizo lo que mamá llamaba “restricción de calorías”, comiendo poco y pesándose cinco veces al día. Se sometió a grandes cambios de imagen mientras mamá la reprendía: “Tus pestañas son invisibles, ¿sabes? ¿Qué te crees, que Dakota Fanning no se las tiñe?” Mamá seguía duchándola a los dieciséis años, leía sus diarios y sus correos electrónicos, y disponía de sus ingresos.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "En estas desgarradoras e hilarantes memorias, Jennette McCurdy, protagonista de las series de televisión iCarly y Sam & Cat, relata sus problemas como actriz infantil --trastornos alimentarios, adicciones y una complicada relación con su autoritaria madre-- y cómo retomó el control de su vida.Jennette McCurdy tenía seis años cuando tuvo su primera audición para actuar. El sueño de su madre era que su única hija se convirtiera en una estrella y Jennette habría hecho cualquier cosa para hacer feliz a su madre. Así que hizo lo que mamá llamaba “restricción de calorías”, comiendo poco y pesándose cinco veces al día. Se sometió a grandes cambios de imagen mientras mamá la reprendía: “Tus pestañas son invisibles, ¿sabes? ¿Qué te crees, que Dakota Fanning no se las tiñe?” Mamá seguía duchándola a los dieciséis años, leía sus diarios y sus correos electrónicos, y disponía de sus ingresos.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 360
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "a46f513a-80a8-4a89-a4ce-800b2ded278f"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Me alegro de que mi madre haya muerto",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Me alegro de que mi madre haya muerto",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Me-alegro-de-que-mi-madre-haya-muerto-2187153ff1cc44d0bf4171531ea2890b",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "0e225863-18f0-44af-bca1-1514c88ed5f8",
+      "created_time": "2024-07-15T21:16:00.000Z",
+      "last_edited_time": "2024-07-15T21:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/41vPEVbGsGL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/41vPEVbGsGL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2022
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "e02b5d1a-c07c-414c-b7df-0ae04f23cd3d"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Aleisha es una joven brillante pero algo inquieta que ha decidido pasar el verano trabajando en la biblioteca. Un día descubre una lista de lectura dentro de un viejo libro. Intrigada, decide seguir las recomendaciones y un viaje extraordinario empezará para ella.Mukesh acaba de perder a su adorada esposa. Ahora lleva una vida tranquila: va a comprar, pasea y trata de estrechar la relación con su nieta, apasionada lectora. Sin pretenderlo, Aleisha le abre las puertas a la magia de la lectura y el cautivador poder de los libros. Ambos formarán un conmovedor club de lectura para corazones solitarios que buscan nuevos comienzos.Inspiradora y conmovedora, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Aleisha es una joven brillante pero algo inquieta que ha decidido pasar el verano trabajando en la biblioteca. Un día descubre una lista de lectura dentro de un viejo libro. Intrigada, decide seguir las recomendaciones y un viaje extraordinario empezará para ella.Mukesh acaba de perder a su adorada esposa. Ahora lleva una vida tranquila: va a comprar, pasea y trata de estrechar la relación con su nieta, apasionada lectora. Sin pretenderlo, Aleisha le abre las puertas a la magia de la lectura y el cautivador poder de los libros. Ambos formarán un conmovedor club de lectura para corazones solitarios que buscan nuevos comienzos.Inspiradora y conmovedora, ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "El club de lectura para corazones solitarios",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "El club de lectura para corazones solitarios",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " es una novela deliciosa sobre la magia de los libros y la alegría que produce la amistad.\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " es una novela deliciosa sobre la magia de los libros y la alegría que produce la amistad.\n\n",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 313
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            },
+            {
+              "id": "96990c4c-182b-4a95-a53b-775e903f9f0d"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "El club de lectura para corazones solitarios",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "El club de lectura para corazones solitarios",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/El-club-de-lectura-para-corazones-solitarios-0e22586318f044afbca11514c88ed5f8",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "467c1201-8df4-44a0-9fc3-27897c78c60c",
+      "created_time": "2024-07-15T21:11:00.000Z",
+      "last_edited_time": "2024-07-15T21:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/61FJq6qbxaL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/61FJq6qbxaL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": null
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": null
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "b81d762f-22e2-4ea1-87ec-b8ab28eed6cc",
+            "name": "Want To Read",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "6abd5363-c0c7-4d6d-b53a-66bc9377473d"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Ser joven es tan maravilloso como desafiante. En los 7 habitos de los adolescentes altamente efectivos. Sean Covey aplica los principios imperecederos de los 7 habitos a las dificiles circunstancias y decisiones que enfrentan los jovenes. De manera divertida, Covey presenta una guia que ayuda a los adolescentes a mejorar su imagen y estima, desarrolalr su potencial, formar amistades, resistir las presiones, fijar y lograr sus metas, mantener una buena relacion con sus padres y mucho mas. Es una lectura indispensable para quienes atraviesan por la etapa mas inquieta y dinamica de su vida, asi como para padres, abuelos y cualquier adulto que ejerza influencia sobre ellos. Con caricaturas, ideas ingeniosas, citaas grandiosas e increibles anecdotas de muchachos de todo el mundo, este libro es la ultima palabra en supervivencia y desarrollo durante la juventud, e incluso despues.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Ser joven es tan maravilloso como desafiante. En los 7 habitos de los adolescentes altamente efectivos. Sean Covey aplica los principios imperecederos de los 7 habitos a las dificiles circunstancias y decisiones que enfrentan los jovenes. De manera divertida, Covey presenta una guia que ayuda a los adolescentes a mejorar su imagen y estima, desarrolalr su potencial, formar amistades, resistir las presiones, fijar y lograr sus metas, mantener una buena relacion con sus padres y mucho mas. Es una lectura indispensable para quienes atraviesan por la etapa mas inquieta y dinamica de su vida, asi como para padres, abuelos y cualquier adulto que ejerza influencia sobre ellos. Con caricaturas, ideas ingeniosas, citaas grandiosas e increibles anecdotas de muchachos de todo el mundo, este libro es la ultima palabra en supervivencia y desarrollo durante la juventud, e incluso despues.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 245
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": null
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "52c99df1-32fd-4a8f-b500-97ee4d4342af"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Los 7 habitos de los adolescentes altamente efectivos",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Los 7 habitos de los adolescentes altamente efectivos",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Los-7-habitos-de-los-adolescentes-altamente-efectivos-467c12018df444a09fc327897c78c60c",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a287893c-dda3-4052-95fe-ba1d0851ccbf",
+      "created_time": "2024-07-15T21:02:00.000Z",
+      "last_edited_time": "2024-08-03T18:08:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/4103BgSchQL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/4103BgSchQL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2014
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": {
+            "start": "2024-07-15",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 0.64
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": null
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": null
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "oAm?",
+            "name": "Reading",
+            "color": "default"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": null
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "1bd54736-5494-4f49-8003-98d8a7f823f9"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Una mujer es hallada muerta en la ciudad de Beszel, en algún lugar de los confines de Europa. Para llevar a cabo la investigación, el inspector Borlú tiene que viajar desde esta decadente ciudad a su urbe rival, idéntica e íntima vecina, la vibrante ciudad de Ul Qoma. Pero cruzar esta frontera significa emprender un viaje tan físico como psíquico, ver aquello que se mantiene invisible. Con el detective de Ul Qoma Qussim Dhatt, Borlú se ve envuelto en un submundo de nacionalistas que intentan destruir la ciudad vecina, y de unificacionistas que sueñan con convertir las dos ciudades en una sola. Mientras los detectives desvelan los secretos de la mujer asesinada, empiezan a sospechar una verdad que podría costarles algo más que sus vidas.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Una mujer es hallada muerta en la ciudad de Beszel, en algún lugar de los confines de Europa. Para llevar a cabo la investigación, el inspector Borlú tiene que viajar desde esta decadente ciudad a su urbe rival, idéntica e íntima vecina, la vibrante ciudad de Ul Qoma. Pero cruzar esta frontera significa emprender un viaje tan físico como psíquico, ver aquello que se mantiene invisible. Con el detective de Ul Qoma Qussim Dhatt, Borlú se ve envuelto en un submundo de nacionalistas que intentan destruir la ciudad vecina, y de unificacionistas que sueñan con convertir las dos ciudades en una sola. Mientras los detectives desvelan los secretos de la mujer asesinada, empiezan a sospechar una verdad que podría costarles algo más que sus vidas.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": false
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 318
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 205
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "75571c93-09f0-4a55-b2e2-988d6c6a40fe"
+            },
+            {
+              "id": "49976352-f5c0-4c03-b299-be20d85f0ab1"
+            },
+            {
+              "id": "b2b7d2d1-5137-4bca-9aaf-41c2947240a2"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "La ciudad y la ciudad",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "La ciudad y la ciudad",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/La-ciudad-y-la-ciudad-a287893cdda3405295feba1d0851ccbf",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "74cad76c-d2c2-45f7-b5ec-6ee36dfd56b2",
+      "created_time": "2024-07-15T20:55:00.000Z",
+      "last_edited_time": "2024-08-03T18:07:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/81kwLm3tldL._SY466_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/81kwLm3tldL._SY466_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2022
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": {
+            "start": "2024-05-07",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 1
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": {
+            "id": "Qqm^",
+            "name": "⭐⭐⭐",
+            "color": "default"
+          }
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": {
+            "start": "2024-07-14",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "f4221c56-547e-4b37-b2cb-06f7e765887b",
+            "name": "Read",
+            "color": "green"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 2024
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "232e7906-da7f-4828-aae1-03ab9576330e"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Enamórate de la obra más sorprendente de la autora de ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Enamórate de la obra más sorprendente de la autora de ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Antes de diciembre.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Antes de diciembre.",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\nTraición. Alianza. Amor. Amistad. Dolor. Y muerte.\nAl fin, Alice ha vuelto a reencontrarse con sus amigos. Sin embargo, la lucha no ha hecho más que empezar y el peligro acecha como nunca. En un mundo donde todo está a punto de desmoronarse, Alice sabe que las decisiones que tome serán cruciales para el destino de todos.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\nTraición. Alianza. Amor. Amistad. Dolor. Y muerte.\nAl fin, Alice ha vuelto a reencontrarse con sus amigos. Sin embargo, la lucha no ha hecho más que empezar y el peligro acecha como nunca. En un mundo donde todo está a punto de desmoronarse, Alice sabe que las decisiones que tome serán cruciales para el destino de todos.\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Cuando parece que ya no te queda nada por lo que luchar, ¿hasta dónde serías capaz de llegar por los tuyos?",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Cuando parece que ya no te queda nada por lo que luchar, ¿hasta dónde serías capaz de llegar por los tuyos?",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "El esperado cierre de una trilogía inolvidable.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "El esperado cierre de una trilogía inolvidable.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": true
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 608
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 608
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Trilogía Fuego 3: Ciudades de fuego",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Trilogía Fuego 3: Ciudades de fuego",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Trilog-a-Fuego-3-Ciudades-de-fuego-74cad76cd2c245f7b5ec6ee36dfd56b2",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "cf70ac41-e09d-4558-9968-ed6de55613b0",
+      "created_time": "2024-07-15T20:48:00.000Z",
+      "last_edited_time": "2024-07-15T21:27:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/411k7u0FujL._SY445_SX342_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/411k7u0FujL._SY445_SX342_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2022
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": {
+            "start": "2024-04-04",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 1
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": {
+            "id": ">e;V",
+            "name": "⭐⭐⭐⭐",
+            "color": "default"
+          }
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": {
+            "start": "2024-05-06",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "f4221c56-547e-4b37-b2cb-06f7e765887b",
+            "name": "Read",
+            "color": "green"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 2024
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "232e7906-da7f-4828-aae1-03ab9576330e"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "¿Hasta dónde serías capaz de llegar por recuperar tu libertad?",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¿Hasta dónde serías capaz de llegar por recuperar tu libertad?",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "No te pierdas la continuación de la",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "No te pierdas la continuación de la",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " Trilogía Fuego",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Trilogía Fuego",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", de Joana Marcus",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", de Joana Marcus",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "¡Enamórate de la obra más sorprendente la autora de ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "¡Enamórate de la obra más sorprendente la autora de ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Antes de diciembre ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Antes de diciembre ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "!",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "!",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\nUna ciudad nueva.Un experimento.Un reencuentro.Un asesinato.Un romance.\nTras haber asistido a la destrucción de su propia ciudad, el futuro de Alice no es nada prometedor. Tras la extraña oferta de un desconocido, lo único que sabe es que va a vengarse del responsable de la desaparición de sus amigos.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\nUna ciudad nueva.Un experimento.Un reencuentro.Un asesinato.Un romance.\nTras haber asistido a la destrucción de su propia ciudad, el futuro de Alice no es nada prometedor. Tras la extraña oferta de un desconocido, lo único que sabe es que va a vengarse del responsable de la desaparición de sus amigos.",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": []
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": true
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 424
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 424
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Trilogía Fuego 2: Ciudades de cenizas",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Trilogía Fuego 2: Ciudades de cenizas",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Trilog-a-Fuego-2-Ciudades-de-cenizas-cf70ac41e09d45589968ed6de55613b0",
+      "public_url": null
+    },
+    {
+      "object": "page",
+      "id": "a4d83edc-dc62-46dc-b9e0-b3b3089c51a0",
+      "created_time": "2024-07-15T20:34:00.000Z",
+      "last_edited_time": "2024-08-03T19:16:00.000Z",
+      "created_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "last_edited_by": {
+        "object": "user",
+        "id": "f6b3bfe6-5fb8-4ecd-80f7-341838657d81"
+      },
+      "cover": null,
+      "icon": {
+        "type": "external",
+        "external": {
+          "url": "https://www.notion.so/icons/book_lightgray.svg"
+        }
+      },
+      "parent": {
+        "type": "database_id",
+        "database_id": "0f220582-bb9a-44f1-9d8b-18ae82b57ac9"
+      },
+      "archived": false,
+      "in_trash": false,
+      "properties": {
+        "Cover": {
+          "id": "%40%3C%5B%40",
+          "type": "files",
+          "files": [
+            {
+              "name": "https://m.media-amazon.com/images/I/91UATodTy9L._SY466_.jpg",
+              "type": "external",
+              "external": {
+                "url": "https://m.media-amazon.com/images/I/91UATodTy9L._SY466_.jpg"
+              }
+            }
+          ]
+        },
+        "Published Year": {
+          "id": "OB%3A%5C",
+          "type": "number",
+          "number": 2022
+        },
+        "Date Started": {
+          "id": "Pjzk",
+          "type": "date",
+          "date": {
+            "start": "2024-03-20",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Book Progress": {
+          "id": "QF%5DD",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 1
+          }
+        },
+        "Rating": {
+          "id": "QOJe",
+          "type": "select",
+          "select": {
+            "id": "Qqm^",
+            "name": "⭐⭐⭐",
+            "color": "default"
+          }
+        },
+        "Date Finished": {
+          "id": "ZG~m",
+          "type": "date",
+          "date": {
+            "start": "2024-04-04",
+            "end": null,
+            "time_zone": null
+          }
+        },
+        "Status": {
+          "id": "ZjyS",
+          "type": "status",
+          "status": {
+            "id": "f4221c56-547e-4b37-b2cb-06f7e765887b",
+            "name": "Read",
+            "color": "green"
+          }
+        },
+        "Read Year": {
+          "id": "%5C%5C%3Ao",
+          "type": "formula",
+          "formula": {
+            "type": "number",
+            "number": 2024
+          }
+        },
+        "Authors": {
+          "id": "c%5DMU",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "232e7906-da7f-4828-aae1-03ab9576330e"
+            }
+          ],
+          "has_more": false
+        },
+        "Summary": {
+          "id": "f%3CW%40",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Alice nunca ha salido al mundo.\n\nSu cena es a las nueve en punto, su sueño dura exactamente ocho horas, jamás tiene una sola arruga en la ropa, parpadea 86400 veces al día, respira 30000 veces al día, solo habla cuando le preguntan, jamás ha levantado la voz y, lo más importante, jamás se ha preguntado qué pasaría si todo cambiara.\n\nPero, ¿y si eso ocurriera?\n\nEn un mundo donde la libertad está controlada, ¿hasta dónde serías capaz de llegar para recuperarla?\n\n¿Hasta dónde serías capaz de llegar para sobrevivir?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Alice nunca ha salido al mundo.\n\nSu cena es a las nueve en punto, su sueño dura exactamente ocho horas, jamás tiene una sola arruga en la ropa, parpadea 86400 veces al día, respira 30000 veces al día, solo habla cuando le preguntan, jamás ha levantado la voz y, lo más importante, jamás se ha preguntado qué pasaría si todo cambiara.\n\nPero, ¿y si eso ocurriera?\n\nEn un mundo donde la libertad está controlada, ¿hasta dónde serías capaz de llegar para recuperarla?\n\n¿Hasta dónde serías capaz de llegar para sobrevivir?",
+              "href": null
+            }
+          ]
+        },
+        "Opinion": {
+          "id": "f%5DTK",
+          "type": "rich_text",
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Ciudades de fuego",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Ciudades de fuego",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", el primer libro de la trilogía ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", el primer libro de la trilogía ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Ciudades de humos",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Ciudades de humos",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", es un buen libro; la historia es muy interesante y te mantiene enganchado a saber qué va a pasar. Aunque este libro es muy introductorio (por lo menos así lo veo yo), por esto pienso que en algunos momentos es un poco lento. Pero esto no quiere decir que sea malo, ¡noooo!\nAl ser el primer libro y servir de introducción, tiene un plus, ya que el mundo en el que se desarrolla es muy interesante y curioso, y en todo momento me hizo querer descubrir cómo es el mundo en el que se desarrolla la historia.\nPor otro lado, los personajes son interesantes, aunque algunos más que otros, lo cual es normal.\nLa más interesante, desde mi punto de vista, es Alice, tanto en este libro como en toda la trilogía, ya que su desarrollo es bastante bueno y la forma en que cambia y se adapta a su nuevo estilo de vida es notable.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", es un buen libro; la historia es muy interesante y te mantiene enganchado a saber qué va a pasar. Aunque este libro es muy introductorio (por lo menos así lo veo yo), por esto pienso que en algunos momentos es un poco lento. Pero esto no quiere decir que sea malo, ¡noooo!\nAl ser el primer libro y servir de introducción, tiene un plus, ya que el mundo en el que se desarrolla es muy interesante y curioso, y en todo momento me hizo querer descubrir cómo es el mundo en el que se desarrolla la historia.\nPor otro lado, los personajes son interesantes, aunque algunos más que otros, lo cual es normal.                                                                                                                                                     \nLa más interesante, desde mi punto de vista, es Alice, tanto en este libro como en toda la trilogía, ya que su desarrollo es bastante bueno y la forma en que cambia y se adapta a su nuevo estilo de vida es notable.",
+              "href": null
+            }
+          ]
+        },
+        "Finished": {
+          "id": "iVF%5B",
+          "type": "formula",
+          "formula": {
+            "type": "boolean",
+            "boolean": true
+          }
+        },
+        "Pages": {
+          "id": "jB%3F%5B",
+          "type": "number",
+          "number": 496
+        },
+        "Challenge": {
+          "id": "k%40Ub",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "76f7fd67-529e-42aa-b0c7-57d3de0e85b2"
+            }
+          ],
+          "has_more": false
+        },
+        "Pages Read": {
+          "id": "kmWn",
+          "type": "number",
+          "number": 496
+        },
+        "Genres": {
+          "id": "ud%3EG",
+          "type": "relation",
+          "relation": [
+            {
+              "id": "4968c950-1833-41f5-98c0-1af246835aab"
+            }
+          ],
+          "has_more": false
+        },
+        "Name": {
+          "id": "title",
+          "type": "title",
+          "title": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Trilogía Fuego 1: Ciudades de humo",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Trilogía Fuego 1: Ciudades de humo",
+              "href": null
+            }
+          ]
+        }
+      },
+      "url": "https://www.notion.so/Trilog-a-Fuego-1-Ciudades-de-humo-a4d83edcdc6246dcb9e0b3b3089c51a0",
+      "public_url": null
+    }
+  ],
+  "next_cursor": null,
+  "has_more": false,
+  "type": "page_or_database",
+  "page_or_database": {},
+  "request_id": "ea124cee-dfef-4cbb-b7ad-a3f32d45be7e"
+}
