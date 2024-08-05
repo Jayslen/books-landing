@@ -23,7 +23,7 @@ const { books, title } = Astro.props
               author={author}
               genres={genres}
               pages={pages}
-              bookUrl={`/books/${bookTitle}`}
+              bookUrl={`/books/${bookTitle.replace(/[^a-zA-Z0-9\s]/g, '').replace(/\s+/g, '-')}`}
             />
           </li>
         )

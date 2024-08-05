@@ -13,7 +13,11 @@ export const getStaticPaths = async () => {
 
   return books.map((book) => {
     return {
-      params: { book: book.bookTitle },
+      params: {
+        book: book.bookTitle
+          .replace(/[^a-zA-Z0-9\s]/g, '')
+          .replace(/\s+/g, '-'),
+      },
       props: { data: book },
     }
   })
