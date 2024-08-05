@@ -1,8 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro'
-import ArrowIcon from '../../components/ArrowIcon.astro'
-// import books from '../../mocks/normalized-data.json'
 import { getBooksInfo } from '../../scripts/fetchBooks'
+// import books from '../../mocks/normalized-data.json'
 
 export const getStaticPaths = async () => {
   const { books } = await getBooksInfo({
@@ -43,19 +42,12 @@ const bookOpinion = opinion
 ---
 
 <Layout title={bookTitle}>
-  <a
-    href="/"
-    class="inline-flex py-2 px-4 rounded bg-[#1b1b1b] text-[#d5d0c4] sticky top-1 z-10"
-  >
-    <ArrowIcon />
-    Volver
-  </a>
   <h1 class="text-4xl md:text-6xl lg:text-7xl">{bookTitle}</h1>
   <section class="my-10">
     <article class="md:flex gap-8">
-      <div class="book-container">
+      <div class="book-container" transition:name={`view-transition-name: book-${bookTitle}`}>
         <div class="book">
-          <img alt={`Portada del libro ${bookTitle}`} src={bookImage} />
+          <img alt={`Portada del libro ${bookTitle}`} src={bookImage}  />
         </div>
       </div>
       <ul class="max-w-2xl">
@@ -115,12 +107,14 @@ const bookOpinion = opinion
     perspective: 700px;
   }
 
-  @keyframes initAnimation {
-    0% {
-      transform: rotateY(0deg);
-    }
-    100% {
-      transform: rotateY(-30deg);
+  @media (width < 1024px) { 
+    @keyframes initAnimation {
+      0% {
+        transform: rotateY(0deg);
+      }
+      100% {
+        transform: rotateY(-30deg);
+      }
     }
   }
 
@@ -134,10 +128,6 @@ const bookOpinion = opinion
     animation: 1s ease 0s 1 initAnimation;
   }
 
-  /* .book-container:hover .book,
-  .book-container:focus .book {
-    transform: rotateY(0deg);
-  } */
 
   .book > :first-child {
     position: absolute;

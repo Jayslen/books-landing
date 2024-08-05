@@ -2,8 +2,8 @@
 import Layout from '../layouts/Layout.astro'
 import Header from '../components/Header.astro'
 import BooksSection from '../components/BooksSection.astro'
-// import books from '../mocks/normalized-data.json'
 import { getBooksInfo } from '../scripts/fetchBooks'
+// import books from '../mocks/normalized-data.json'
 
 const { books } = await getBooksInfo({
   genreId: import.meta.env.GENRE_DATABASE_ID,

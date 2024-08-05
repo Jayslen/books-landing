@@ -4,7 +4,7 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
 ---
 
 <article>
-  <a class="book-container" href={bookUrl}>
+  <a class="book-container" href={bookUrl} transition:name={`view-transition-name: book-${title}`}>
     <div class="book">
       <img alt={imageAlt} src={imageSrc} />
     </div>
@@ -29,14 +29,6 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
     perspective: 600px;
   }
 
-  /* @keyframes initAnimation {
-    0% {
-      transform: rotateY(-30deg);
-    }
-    100% {
-      transform: rotateY(-0deg);
-    }
-  } */
 
   .book {
     width: var(--book-width);
@@ -44,7 +36,7 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
     position: relative;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
-    transition: 1s ease;
+    transition: 0.5s ease-out ;
     animation: 1s ease 0s 1 initAnimation;
   }
 
@@ -58,8 +50,6 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
     transform: translateZ(20px);
     background-color: #01060f;
     border-radius: 0 5px 5px 0;
-
-    /* box-shadow: 5px 5px 20px #666; */
   }
 
   @media (width >= 1024px) {
@@ -128,7 +118,6 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
       transform: translateZ(-20px);
       background-color: #01060f;
       border-radius: 0 5px 5px 0;
-      /* box-shadow: -10px 0 50px 10px #666; */
     }
   }
 </style>

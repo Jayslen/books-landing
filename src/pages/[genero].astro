@@ -25,10 +25,9 @@ export const getStaticPaths = async () => {
 }
 const { genero } = Astro.params
 const { books } = Astro.props
-// const books = books_data.filter(({ genres }) => genres.includes(genero))
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title={`Libros de ${genero}`}>
   <Header />
   <BooksSection books={books} title={genero} />
 </Layout>
