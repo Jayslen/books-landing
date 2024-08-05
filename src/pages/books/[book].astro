@@ -1,0 +1,195 @@
+---
+import Layout from '../../layouts/Layout.astro'
+import ArrowIcon from '../../components/ArrowIcon.astro'
+// import books from '../../mocks/normalized-data.json'
+import { getBooksInfo } from '../../scripts/fetchBooks'
+
+export const getStaticPaths = async () => {
+  const { books } = await getBooksInfo({
+    genreId: import.meta.env.GENRE_DATABASE_ID,
+    authorId: import.meta.env.AUTHOR_DATABASE_ID,
+    booksId: import.meta.env.BOOKS_DATABASE_ID,
+  })
+
+  return books.map((book) => {
+    return {
+      params: { book: book.bookTitle },
+      props: { data: book },
+    }
+  })
+}
+
+const { data } = Astro.props
+
+const {
+  bookTitle,
+  bookImage,
+  synopsis,
+  author,
+  publishedDate,
+  bookStatus,
+  genres,
+  opinion,
+} = data
+
+const bookSynopsis = synopsis.split(/\n/).filter((line) => line.length > 0)
+const bookOpinion = opinion
+  ? opinion.split(/\n/).filter((line) => line.length > 0)
+  : []
+---
+
+<Layout title={bookTitle}>
+  <a href="/" class="inline-flex py-2 px-4 rounded bg-[#1b1b1b] text-[#d5d0c4]">
+    <ArrowIcon />
+    Volver
+  </a>
+  <h1 class="text-7xl">{bookTitle}</h1>
+  <section class="my-10">
+    <article class="flex gap-8">
+      <div class="book-container">
+        <div class="book">
+          <img alt={`Portada del libro ${bookTitle}`} src={bookImage} />
+        </div>
+      </div>
+      <ul class="max-w-2xl">
+        <li>
+          <h3>Sipnosis.</h3>
+          {bookSynopsis.map((line) => <p>{line}</p>)}
+        </li>
+        <li>
+          <h3>Autor/a.</h3>
+          <p>{author}</p>
+        </li>
+        <li>
+          <h3>Fecha de publicación.</h3>
+          <p>{publishedDate}</p>
+        </li>
+        <li>
+          <h3>Estado.</h3>
+          <p>{bookStatus}</p>
+        </li>
+        <li>
+          <h3>Generos.</h3>
+          <ul class="flex gap-2">
+            {
+              genres.map((genre) => (
+                <li class="bg-[#1b1b1b] text-[#d5d0c4] px-2 py-1 rounded">
+                  {genre}
+                </li>
+              ))
+            }
+          </ul>
+        </li>
+      </ul>
+    </article>
+  </section>
+
+  {
+    opinion && (
+      <section>
+        <h2 class="text-4xl relative after:content-[''] after:absolute after:w-full after:h-[1px] after:bg-[#1b1b1b] after:left-0 after:-bottom-2">
+          Opinion del libro.
+        </h2>
+        <article>
+          {bookOpinion.map((line) => (
+            <p class="max-w-2xl">{line}</p>
+          ))}
+        </article>
+      </section>
+    )
+  }
+</Layout>
+
+<style>
+  .book-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 700px;
+  }
+
+  @keyframes initAnimation {
+    0% {
+      transform: rotateY(0deg);
+    }
+    100% {
+      transform: rotateY(-30deg);
+    }
+  }
+
+  .book {
+    width: 300px;
+    height: 450px;
+    position: relative;
+    transform-style: preserve-3d;
+    transform: rotateY(-30deg);
+    transition: 1s ease;
+    animation: 1s ease 0s 1 initAnimation;
+  }
+
+  .book-container:hover .book,
+  .book-container:focus .book {
+    transform: rotateY(0deg);
+  }
+
+  .book > :first-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: red;
+    width: 300px;
+    height: 450px;
+    transform: translateZ(50px);
+    background-color: #01060f;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 5px 5px 20px #666;
+  }
+
+  .book::before {
+    position: absolute;
+    content: ' ';
+    background-color: blue;
+    left: 0;
+    top: 4px;
+    width: 98px;
+    height: 442px;
+    transform: translateX(246px) rotateY(90deg);
+    background: linear-gradient(
+      90deg,
+      #fff 0%,
+      #f9f9f9 5%,
+      #fff 10%,
+      #f9f9f9 15%,
+      #fff 20%,
+      #f9f9f9 25%,
+      #fff 30%,
+      #f9f9f9 35%,
+      #fff 40%,
+      #f9f9f9 45%,
+      #fff 50%,
+      #f9f9f9 55%,
+      #fff 60%,
+      #f9f9f9 65%,
+      #fff 70%,
+      #f9f9f9 75%,
+      #fff 80%,
+      #f9f9f9 85%,
+      #fff 90%,
+      #f9f9f9 95%,
+      #fff 100%
+    );
+  }
+
+  .book::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: ' ';
+    width: 300px;
+    height: 450px;
+    transform: translateZ(-50px);
+    background-color: #01060f;
+    border-radius: 0 5px 5px 0;
+    box-shadow: -10px 0 50px 10px #666;
+  }
+</style>

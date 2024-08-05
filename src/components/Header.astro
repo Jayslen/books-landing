@@ -1,0 +1,37 @@
+---
+import { getBooksInfo } from '../scripts/fetchBooks'
+const { booksGenres } = await getBooksInfo({
+  genreId: import.meta.env.GENRE_DATABASE_ID,
+  authorId: import.meta.env.AUTHOR_DATABASE_ID,
+  booksId: import.meta.env.BOOKS_DATABASE_ID,
+})
+const { genero } = Astro.params
+---
+
+<header>
+  <h1 class="text-9xl">Mis listas de libros 📚</h1>
+  <p class="text-3xl max-w-6xl">
+    Hola soy Jayslen Rojas, no encontraba que hacer y hice esto, es una pagina
+    en donde se muestra mis libros pendientes, terminados y los que estoy
+    leyendo.
+  </p>
+</header>
+<nav>
+  <h2>Filtar por genero:</h2>
+  <ul class="max-w-2xl flex flex-wrap gap-2">
+    <li
+      class={`bg-[#4f4f4f] px-4 text-[#d5d0c4] rounded-full ${genero ?? 'bg-black'}`}
+    >
+      <a href={`/`}>Todos</a>
+    </li>
+    {
+      booksGenres.map((genre) => (
+        <li
+          class={`bg-[#4f4f4f] px-4 text-[#d5d0c4] rounded-full ${genero === genre.name ? 'bg-black' : null}`}
+        >
+          <a href={`/${genre.name}`}>{genre.name}</a>
+        </li>
+      ))
+    }
+  </ul>
+</nav>

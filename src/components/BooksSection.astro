@@ -1,0 +1,33 @@
+---
+import Book from './BookComponent.astro'
+const { books, title } = Astro.props
+---
+
+<section>
+  <h2
+    class="text-4xl relative block mb-8 after:content-[''] after:absolute after:w-full after:h-[1px] after:bg-[#1b1b1b] after:left-0 after:-bottom-2"
+  >
+    {title}
+  </h2>
+  <ul
+    class={`${books.length >= 6 ? 'grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))]' : 'flex'} gap-10 gap-y-1`}
+  >
+    {
+      books.map(
+        ({ bookImage, bookTitle, bookStatus, author, genres, pages }) => (
+          <li>
+            <Book
+              imageSrc={bookImage}
+              title={bookTitle}
+              status={bookStatus}
+              author={author}
+              genres={genres}
+              pages={pages}
+              bookUrl={`/books/${bookTitle}`}
+            />
+          </li>
+        )
+      )
+    }
+  </ul>
+</section>

@@ -1,0 +1,34 @@
+---
+import Layout from '../layouts/Layout.astro'
+import Header from '../components/Header.astro'
+import BooksSection from '../components/BooksSection.astro'
+import { getBooksInfo } from '../scripts/fetchBooks'
+
+// import genre_data from '../mocks/normalized-genres.json'
+// import books_data from '../mocks/normalized-data.json'
+
+export const getStaticPaths = async () => {
+  const { books: books_data, booksGenres: genre_data } = await getBooksInfo({
+    genreId: import.meta.env.GENRE_DATABASE_ID,
+    authorId: import.meta.env.AUTHOR_DATABASE_ID,
+    booksId: import.meta.env.BOOKS_DATABASE_ID,
+  })
+
+  return genre_data.map((genre) => {
+    return {
+      params: { genero: genre.name },
+      props: {
+        books: books_data.filter(({ genres }) => genres.includes(genre.name)),
+      },
+    }
+  })
+}
+const { genero } = Astro.params
+const { books } = Astro.props
+// const books = books_data.filter(({ genres }) => genres.includes(genero))
+---
+
+<Layout title="Welcome to Astro.">
+  <Header />
+  <BooksSection books={books} title={genero} />
+</Layout>
