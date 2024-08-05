@@ -45,6 +45,8 @@ export async function getBooksInfo({genreId, authorId, booksId}) {
         genres: properties.Genres.relation.map((genre) => {
           return booksGenres.find((bookGenre) => bookGenre.id === genre.id).name
         }),
+        epubLink: properties.Epub?.files[0]?.file?.url,
+        epubTitle: properties.Epub?.files[0]?.name
       }
     })
 

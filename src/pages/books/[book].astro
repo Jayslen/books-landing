@@ -33,6 +33,9 @@ const {
   bookStatus,
   genres,
   opinion,
+  pages,
+  epubTitle,
+  epubLink,
 } = data
 
 const bookSynopsis = synopsis.split(/\n/).filter((line) => line.length > 0)
@@ -45,30 +48,38 @@ const bookOpinion = opinion
   <h1 class="text-4xl md:text-6xl lg:text-7xl">{bookTitle}</h1>
   <section class="my-10">
     <article class="md:flex gap-8">
-      <div class="book-container" transition:name={`view-transition-name: book-${bookTitle}`}>
+      <div
+        class="book-container"
+        transition:name={`view-transition-name: book-${bookTitle}`}
+      >
         <div class="book">
-          <img alt={`Portada del libro ${bookTitle}`} src={bookImage}  />
+          <img alt={`Portada del libro ${bookTitle}`} src={bookImage} />
         </div>
       </div>
-      <ul class="max-w-2xl">
+
+      <ul class="lg:h-[450px] max-w-md flex flex-col gap-x-4 flex-wrap lg:py-4">
         <li>
           <h3>Sipnosis.</h3>
           {bookSynopsis.map((line) => <p>{line}</p>)}
         </li>
         <li>
-          <h3>Autor/a.</h3>
+          <h3>Autor/a</h3>
           <p>{author}</p>
         </li>
         <li>
-          <h3>Fecha de publicación.</h3>
+          <h3>Fecha de publicación</h3>
           <p>{publishedDate}</p>
         </li>
         <li>
-          <h3>Estado.</h3>
+          <h3>Estado</h3>
           <p>{bookStatus}</p>
         </li>
         <li>
-          <h3>Generos.</h3>
+          <h3>Paginas</h3>
+          <p>{pages}</p>
+        </li>
+        <li>
+          <h3>Generos</h3>
           <ul class="flex gap-2">
             {
               genres.map((genre) => (
@@ -79,10 +90,23 @@ const bookOpinion = opinion
             }
           </ul>
         </li>
+        {
+          epubLink && (
+            <li>
+              <h3>Epub</h3>
+              <a
+                href={epubLink}
+                download={epubTitle}
+                class="bg-[#1b1b1b] text-[#d5d0c4] px-2 py-1 inline-block rounded text-left cursor-pointer hover:bg-[#454545] transition-colors duration-300"
+              >
+                Descargar libro
+              </a>
+            </li>
+          )
+        }
       </ul>
     </article>
   </section>
-
   {
     opinion && (
       <section>
@@ -107,7 +131,7 @@ const bookOpinion = opinion
     perspective: 700px;
   }
 
-  @media (width < 1024px) { 
+  @media (width < 1024px) {
     @keyframes initAnimation {
       0% {
         transform: rotateY(0deg);
@@ -127,7 +151,6 @@ const bookOpinion = opinion
     transition: 1s ease;
     animation: 1s ease 0s 1 initAnimation;
   }
-
 
   .book > :first-child {
     position: absolute;

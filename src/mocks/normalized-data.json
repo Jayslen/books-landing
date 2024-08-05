@@ -8,7 +8,9 @@
     "synopsis": "Escrito en 1886, ¿Cuánta tierra necesita un hombre? es una modernísima parábola sobre la ambición del ser humano. Pajom es un campesino al que ninguna extensión de tierra satisface: cuanta más tiene, más necesita. Al conocer que los habitantes de una lejana región, los bashkirios, le ofrecen tanta tierra como pueda recorrer en un día, no lo dudará e intentará abarcar la mayor cantidad posible... La prosa de Tolstói decía Nabokov late al ritmo de nuestro corazón. Elena Odriozola (Segundo Premio Nacional de Ilustración 2006) ha captado ese pulso narrativo y nos lleva con sus imágenes a la tierra que vio nacer a Pajom, permitiendonos acompañarle en su viaje por la estepa rusa, marcado por el ritmo de su ambición. Las vacas serán testigo de ese afán.",
     "pages": 68,
     "pagesRead": null,
-    "genres": []
+    "genres": [],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/9aeeb959-45ae-4772-8917-3593362ca884/Cuanta_tierra_necesita_un_hombre_-_Leon_Tolstoi.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=264b7bdbcddb686730c623cb3259cd960e9831bc9426ef3f5e511829cd75b96c&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Cuanta tierra necesita un hombre - Leon Tolstoi.epub"
   },
   {
     "bookTitle": "Noches blancas",
@@ -19,7 +21,11 @@
     "synopsis": "Un joven solitario e introvertido narra cómo conoce de forma accidental a una muchacha durante una “noche blanca”, fenómeno que se da en la ciudad rusa durante la época del solsticio de verano y a causa del cual la oscuridad nunca es completa. Tras el primer encuentro, la pareja de desconocidos se citará durante las cuatro noches siguientes, noches en las que la chica, de nombre Nastenka, relatará su triste historia, y en las que harán acto de presencia, de forma sutil y envolvente, las grandes pasiones que mueven al ser humano: el amor, la ilusión, la esperanza, el desamor, el desengaño.",
     "pages": null,
     "pagesRead": 77,
-    "genres": ["Fiction"]
+    "genres": [
+      "Fiction"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/0b342b3f-37ba-4015-949a-49442116b305/Noche_Blancas_Ilustrado_-_Fiodor_Dostoyevski.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=c83ac916dfd8a8a8919c40f9da52f86ef91f7b5e7e6907c74d884ddc0d4940dc&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Noche Blancas Ilustrado - Fiodor Dostoyevski.epub"
   },
   {
     "bookTitle": "La edad del desconsuelo",
@@ -30,7 +36,11 @@
     "synopsis": "«Nunca más volveré a ser feliz», musita Dana en el asiento trasero del coche familiar, sin reparar en que piensa en voz alta. Al oírlo, Dave, su marido, siente que ambos están a punto de perder todo aquello que una vez desearon: sus años de apacible matrimonio, tres hijas, la próspera clínica dental que comparten. Ahora Dave está convencido de que Dana se ha enamorado de otro hombre y, de manera inesperada, decide que la mejor manera de salvar su relación es evitar que su esposa descubra que él lo sabe.En ",
     "pages": 84,
     "pagesRead": null,
-    "genres": ["Novel"]
+    "genres": [
+      "Novel"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/2a74aad7-2147-467b-a2be-a2c6c4a9f261/La_edad_del_desconsuelo_-_Jane_Smiley.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=e268142d80a6d4755581758bc1fa0c8f8694a9530b5e618b9756e39eed84086c&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "La edad del desconsuelo - Jane Smiley.epub"
   },
   {
     "bookTitle": "¿De que hablamos cuando hablamos de amor?",
@@ -41,18 +51,26 @@
     "synopsis": "Los deslumbrados lectores de ",
     "pages": 120,
     "pagesRead": null,
-    "genres": ["Fiction", "Literature", "Art"]
+    "genres": [
+      "Fiction",
+      "Literature",
+      "Art"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/a69bac21-5eb5-4a51-962e-fd3fc2d16ba2/De_que_hablamos_cuando_hablamos_de_amor_-_Raymond_Carver.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=cf0acd449dc9dca1696d0eb50fff680085a977443809ab9e3e8fdbb1c50861d0&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "De que hablamos cuando hablamos de amor - Raymond Carver.epub"
   },
   {
     "bookTitle": "Etéreo",
     "bookImage": "https://m.media-amazon.com/images/I/41fTwQLuMVL._SY445_SX342_.jpg",
     "publishedDate": 2024,
     "bookStatus": "Want To Read",
-    "author": "Jona Marcús",
+    "author": "Joana Marcús",
     "synopsis": "Caleb no es un chico corriente. Ha tenido una vida complicada, quizá por las habilidades especiales que lo convierten, a sus ojos, en un monstruo. El destino lo ha llevado a trabajar para gente de moral dudosa, a hacer cosas que le han manchado las manos y el alma.\n\nEntonces, una de sus misiones se complica y se le asigna vigilar a Victoria, una humana tan normal como cualquier otra, con un trabajo rutinario, un apartamento pequeño y un gato extraño.\n\nDebería ser el trabajo más fácil del mundo, pero termina teniendo que elegir entre el mundo que conoce y la única persona que alguna vez le ha importado.",
     "pages": 528,
     "pagesRead": null,
-    "genres": ["Romance"]
+    "genres": [
+      "Romance"
+    ]
   },
   {
     "bookTitle": "Crimen y castigo",
@@ -63,7 +81,12 @@
     "synopsis": "\"Una tarde muy calurosa de principios de julio, salió del cuartito que ocupaba, junto al techo de una gran casa de cinco pisos, un joven, que, lentamente y con aire irresoluto, se dirigió hacia el puente de K***. Tuvo suerte, al bajar la escalera, de no encontrarse a su patrona que habitaba en el piso cuarto, y cuya cocina, que tenía la puerta constantemente sin cerrar, daba a la escalera. Cuando salía el joven, había de pasar forzosamente bajo el fuego del enemigo, y cada vez que esto ocurría experimentaba aquél una molesta sensación de temor que, humillándole, le hacía fruncir el entrecejo. Tenía una deuda no pequeña con su patrona y le daba vergüenza el encontrarla.",
     "pages": 549,
     "pagesRead": null,
-    "genres": ["Classics", "Philosophy"]
+    "genres": [
+      "Classics",
+      "Philosophy"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/23592744-927e-4fc5-84b0-e1dd7b0196f6/Crimen_y_castigo-Dostoyevski_Fiodor.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=bae4af108027ea4b928f0beb610afb1b221036b08269cad79cdf1788ee01bb9c&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Crimen y castigo-Dostoyevski Fiodor.epub"
   },
   {
     "bookTitle": "La papelería Tsubak",
@@ -74,7 +97,12 @@
     "synopsis": "Hatoko Amemiya acaba de regresar a Kamakura, el pueblo costero donde creció al cuidado de su abuela, para reanudar el negocio familiar de una papelería. La suya es una estirpe de escribientes, un antiguo oficio que Hatoko está decidida a honrar y hacer pervivir en el tiempo a través de los pequeños encargos que los clientes le encomiendan: cómo despedirse de alguien, saludar a un recién llegado o recordar la dulzura de un primer amor, todo tiene cabida dentro de los márgenes de una carta, las cuales Hatoko se ocupa de confeccionar con delicadeza, escogiendo el sello adecuado, las palabras, la tinta y el gramaje exactos para cada una de ellas . Ito Ogawa teje a un relato conmovedor sobre los detalles que rellenan el día a día de cualquier comunidad, todo ello retenido de fondo con los paisajes, la gastronomía y las festividades japonesas que acompañan y celebran el paso de las estaciones del año, el relieve de afectos y enseñanzas que heredamos como cartas abiertas de generación en generación.",
     "pages": 197,
     "pagesRead": null,
-    "genres": ["Fiction", "Literature"]
+    "genres": [
+      "Fiction",
+      "Literature"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/fd0d1552-6385-4f64-a320-6ddd36dd3991/La_papeleria_Tsubaki_-_Ito_Ogawa.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=68b805d131e947e7c08456a4961f1dbc0057a8525466f052e03e51227c6d7b9f&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "La papeleria Tsubaki - Ito Ogawa.epub"
   },
   {
     "bookTitle": "Las intermitencias de la muerte",
@@ -85,7 +113,12 @@
     "synopsis": "En un país cuyo nombre no será mencionado, se produce algo nunca visto  desde el principio del mundo: la muerte decide suspender su trabajo  letal, la gente deja de morir. La euforia colectiva se desata, pero muy  pronto dará paso a la desesperación y al caos. Sobran los motivos. Si es  cierto que las personas ya no mueren, eso no significa que el tiempo se  haya detenido. El destino de los humanos será una vejez eterna.\n\nSe buscarán maneras de forzar a la muerte a matar aunque no lo quiera,  se corromperán las conciencias en los «acuerdos de caballeros»  explícitos o tácitos entre el poder político, las mafias y las familias,  los ancianos serán detestados por haberse convertido en estorbos irremovibles. Hasta el día en que la muerte decide volver…",
     "pages": 175,
     "pagesRead": null,
-    "genres": ["Fiction", "Philosophy"]
+    "genres": [
+      "Fiction",
+      "Philosophy"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/a8755956-e84e-467d-a911-83ef843ae49a/Las_intermitencias_de_la_muerte_-_Jose_Saramago.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=013913c54252e7c2fa4886f16afec90cd04fa02ddb94e72ca20e20f544b20f28&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Las intermitencias de la muerte - Jose Saramago.epub"
   },
   {
     "bookTitle": "Los años de peregrinación del chico sin color",
@@ -96,7 +129,12 @@
     "synopsis": "Los años de peregrinación del chico sin color",
     "pages": 247,
     "pagesRead": null,
-    "genres": ["Fiction", "Literature"]
+    "genres": [
+      "Fiction",
+      "Literature"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/6a7c1135-f677-4c8f-8338-10ff092ebb35/Los_anos_de_peregrinacion_del_chico_sin__-_Haruki_Murakami.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=55965f8f4f3903cfc4f8e4d38642585f007e011ce41357d354a5a16db25ce84a&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Los anos de peregrinacion del chico sin  - Haruki Murakami.epub"
   },
   {
     "bookTitle": "Solito",
@@ -107,7 +145,11 @@
     "synopsis": "Con tan solo nueve años, Javier Zamora emprendió un viaje de cinco mil kilómetros de El Salvador a Estados Unidos para reencontrarse con sus padres, dejando atrás todo lo que le era familiar. En compañía de un grupo de desconocidos guiados por un coyote, el recorrido que iba a durar dos semanas se convirtió en una imposible odisea de casi dos meses, cambiándole la vida para siempre. ",
     "pages": 398,
     "pagesRead": null,
-    "genres": ["Biography"]
+    "genres": [
+      "Biography"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/44340eb1-7e59-49e6-b29f-0670e34e68f8/Solito_-_Javier_Zamora.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=c02b02610a364acc0c2d6f8cab16e1b7df1388f934c4f17c0402ad37bb436034&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Solito - Javier Zamora.epub"
   },
   {
     "bookTitle": "Los nombres propios",
@@ -118,7 +160,12 @@
     "synopsis": "¿Quién es Belaundia Fu? Es la mejor amiga de Marta a los siete años: la amiga invisible que, en esos momentos en que las cosas no salen como había planeado y ni siquiera la abuela es capaz de consolarla, se sienta con ella y espera hasta que se le pase. Belaundia Fu es la voz sensata, ideal e infalible que, cuando Marta tiene dieciséis años y pese a que prefiera no escucharlas, le dice las verdades a la cara: por ejemplo, que ese chico, Charlie, no le conviene. Pero cuando Marta ya ha cumplido veintidós, cuando ya se ha licenciado, cuando está empezando a tomar las decisiones que van a marcar el resto de su vida, ¿qué hace aún ahí Belaundia Fu? Ahí sigue porque es quien, desde siempre, le narra a Marta su propia historia. ¿Quién es Belaundia Fu?, nos preguntamos; y, sin embargo, la pregunta que verdaderamente importa es: ¿quién es Marta? Luminosa y emocionante, ",
     "pages": 194,
     "pagesRead": null,
-    "genres": ["Fiction", "Literature"]
+    "genres": [
+      "Fiction",
+      "Literature"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/b9a026bd-618b-4ca8-b067-17c1f3218693/Los_nombres_propios_-_Marta_Jimenez_Serrano.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=f9567cdbd306df685444b747bc4b542d01a911050f2f5b71a2a22be69b2de8c1&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Los nombres propios - Marta Jimenez Serrano.epub"
   },
   {
     "bookTitle": "¿O por sexo, o por amor?",
@@ -132,7 +179,10 @@
     "synopsis": "¿Quieres que tu relación dure y no sabes que se necesita para poder mantenerla? ¿Las personas te han dicho que se necesita tener sexo para mantener a tu pareja contigo? ¡Tu puedes descifrarlo y ponerlo en practica!.\n\nEn ¿O por sexo o por amor? la escritora Mariana C. Acosta te expondrá todos sus pensamientos acerca de dicho tema para que tu no fracases y vayas con más seguridad a tus futuras relaciones, o si ya estas en una actualmente, logres ver lo que realmente es lo que quieres y que no pierdas tu tiempo ni hagas perder el tiempo a la otra persona. En él enfatiza que una relación no dura ni por sexo... ni por amor. ¿Tú sabes por que dura si no es por sexo ni por amor? entra y averigualo.\n\nEste es sólo una parte del libro \"¿O por sexo o por amor?\". Debido al gran alcance y buena aceptacion que ha tenido por parte del publico, habrá una segunda edición ya con el contenido completo y actualizado.",
     "pages": 21,
     "pagesRead": 21,
-    "genres": ["Self Help", "Romance"]
+    "genres": [
+      "Self Help",
+      "Romance"
+    ]
   },
   {
     "bookTitle": "Me alegro de que mi madre haya muerto",
@@ -143,7 +193,11 @@
     "synopsis": "En estas desgarradoras e hilarantes memorias, Jennette McCurdy, protagonista de las series de televisión iCarly y Sam & Cat, relata sus problemas como actriz infantil --trastornos alimentarios, adicciones y una complicada relación con su autoritaria madre-- y cómo retomó el control de su vida.Jennette McCurdy tenía seis años cuando tuvo su primera audición para actuar. El sueño de su madre era que su única hija se convirtiera en una estrella y Jennette habría hecho cualquier cosa para hacer feliz a su madre. Así que hizo lo que mamá llamaba “restricción de calorías”, comiendo poco y pesándose cinco veces al día. Se sometió a grandes cambios de imagen mientras mamá la reprendía: “Tus pestañas son invisibles, ¿sabes? ¿Qué te crees, que Dakota Fanning no se las tiñe?” Mamá seguía duchándola a los dieciséis años, leía sus diarios y sus correos electrónicos, y disponía de sus ingresos.",
     "pages": 360,
     "pagesRead": null,
-    "genres": ["Biography"]
+    "genres": [
+      "Biography"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/1b27a8cc-ab09-45a6-a777-0b1179866d2c/Me_alegro_de_que_mi_madre_haya_muerto_-_Jennette_McCurdy.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=fb77777844d4df8aec8ca9cbf9d70125d1f4dfc78860fc7db15ba50ee9669c8e&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Me alegro de que mi madre haya muerto - Jennette McCurdy.epub"
   },
   {
     "bookTitle": "El club de lectura para corazones solitarios",
@@ -154,7 +208,12 @@
     "synopsis": "Aleisha es una joven brillante pero algo inquieta que ha decidido pasar el verano trabajando en la biblioteca. Un día descubre una lista de lectura dentro de un viejo libro. Intrigada, decide seguir las recomendaciones y un viaje extraordinario empezará para ella.Mukesh acaba de perder a su adorada esposa. Ahora lleva una vida tranquila: va a comprar, pasea y trata de estrechar la relación con su nieta, apasionada lectora. Sin pretenderlo, Aleisha le abre las puertas a la magia de la lectura y el cautivador poder de los libros. Ambos formarán un conmovedor club de lectura para corazones solitarios que buscan nuevos comienzos.Inspiradora y conmovedora, ",
     "pages": 313,
     "pagesRead": null,
-    "genres": ["Fiction", "Literature"]
+    "genres": [
+      "Fiction",
+      "Literature"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/dc279448-6cce-4855-b60f-b40fb6c13f76/El_club_de_lectura_para_corazones_solitarios_-_Sara_Nisha_Adams.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=1e5f79c41d52a006282900ea87f7e7b5abba2e6ac907c872412ec2520b90048f&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "El club de lectura para corazones solitarios - Sara Nisha Adams.epub"
   },
   {
     "bookTitle": "Los 7 habitos de los adolescentes altamente efectivos",
@@ -165,7 +224,9 @@
     "synopsis": "Ser joven es tan maravilloso como desafiante. En los 7 habitos de los adolescentes altamente efectivos. Sean Covey aplica los principios imperecederos de los 7 habitos a las dificiles circunstancias y decisiones que enfrentan los jovenes. De manera divertida, Covey presenta una guia que ayuda a los adolescentes a mejorar su imagen y estima, desarrolalr su potencial, formar amistades, resistir las presiones, fijar y lograr sus metas, mantener una buena relacion con sus padres y mucho mas. Es una lectura indispensable para quienes atraviesan por la etapa mas inquieta y dinamica de su vida, asi como para padres, abuelos y cualquier adulto que ejerza influencia sobre ellos. Con caricaturas, ideas ingeniosas, citaas grandiosas e increibles anecdotas de muchachos de todo el mundo, este libro es la ultima palabra en supervivencia y desarrollo durante la juventud, e incluso despues.",
     "pages": 245,
     "pagesRead": null,
-    "genres": ["Self Help"]
+    "genres": [
+      "Self Help"
+    ]
   },
   {
     "bookTitle": "La ciudad y la ciudad",
@@ -177,7 +238,13 @@
     "synopsis": "Una mujer es hallada muerta en la ciudad de Beszel, en algún lugar de los confines de Europa. Para llevar a cabo la investigación, el inspector Borlú tiene que viajar desde esta decadente ciudad a su urbe rival, idéntica e íntima vecina, la vibrante ciudad de Ul Qoma. Pero cruzar esta frontera significa emprender un viaje tan físico como psíquico, ver aquello que se mantiene invisible. Con el detective de Ul Qoma Qussim Dhatt, Borlú se ve envuelto en un submundo de nacionalistas que intentan destruir la ciudad vecina, y de unificacionistas que sueñan con convertir las dos ciudades en una sola. Mientras los detectives desvelan los secretos de la mujer asesinada, empiezan a sospechar una verdad que podría costarles algo más que sus vidas.",
     "pages": 318,
     "pagesRead": 205,
-    "genres": ["Science Fiction", "Thriller", "Fantasy"]
+    "genres": [
+      "Science Fiction",
+      "Thriller",
+      "Fantasy"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/3c0b3a41-1d23-4933-a915-cb8fd64a9d17/La_ciudad_y_la_ciudad_-_China_Mieville.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=84997e9d8e2cbf62956142e75eeb3985c6c97e3105029a21077594c641806aae&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "La ciudad y la ciudad - China Mieville.epub"
   },
   {
     "bookTitle": "Trilogía Fuego 3: Ciudades de fuego",
@@ -187,11 +254,15 @@
     "dateFinished": "2024-07-14",
     "raiting": "⭐⭐⭐",
     "bookStatus": "Read",
-    "author": "Jona Marcús",
-    "synopsis": "Enamórate de la obra más sorprendente de la autora de ",
+    "author": "Joana Marcús",
+    "synopsis": "Traición. Alianza. Amor. Amistad. Dolor. Y muerte.\n\nAl fin, Alice ha vuelto a reencontrarse con sus amigos. Sin embargo, la lucha no ha hecho más que empezar, y el peligro acecha más que nunca. En un mundo donde todo está a punto de desmoronarse, Alice sabe que las decisiones que tome serán cruciales para el destino de todos.\n\nCuando parece que te lo han arrebatado todo, ¿hasta dónde serías capaz de llegar por los tuyos?",
     "pages": 608,
     "pagesRead": 608,
-    "genres": ["Fiction"]
+    "genres": [
+      "Fiction"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/48837eaa-da72-4bdf-99db-093805d34d56/Ciudades_de_fuego_Joana_Marcs.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=7150ad7b331650bb746d82d0c5893e65c444be8f0cc0491d725c15b7d8af866d&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Ciudades de fuego_Joana Marcús.epub"
   },
   {
     "bookTitle": "Trilogía Fuego 2: Ciudades de cenizas",
@@ -201,11 +272,15 @@
     "dateFinished": "2024-05-06",
     "raiting": "⭐⭐⭐⭐",
     "bookStatus": "Read",
-    "author": "Jona Marcús",
-    "synopsis": "¿Hasta dónde serías capaz de llegar por recuperar tu libertad?",
+    "author": "Joana Marcús",
+    "synopsis": "¿Hasta dónde serías capaz de llegar por recuperar tu libertad?\n\nNo te pierdas la continuación de la",
     "pages": 424,
     "pagesRead": 424,
-    "genres": ["Fiction"]
+    "genres": [
+      "Fiction"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/6e16ea01-85eb-4d4d-b8ad-e55c817b1ec3/Ciudades_de_cenizas_-_Joana_Marcus.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=d6629cd33f3b10c1c4b526988de07db2f61ad4a8069bfc466e529a71d4b71ee1&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Ciudades de cenizas - Joana Marcus.epub"
   },
   {
     "bookTitle": "Trilogía Fuego 1: Ciudades de humo",
@@ -215,11 +290,15 @@
     "dateFinished": "2024-04-04",
     "raiting": "⭐⭐⭐",
     "bookStatus": "Read",
-    "author": "Jona Marcús",
+    "author": "Joana Marcús",
     "synopsis": "Alice nunca ha salido al mundo.\n\nSu cena es a las nueve en punto, su sueño dura exactamente ocho horas, jamás tiene una sola arruga en la ropa, parpadea 86400 veces al día, respira 30000 veces al día, solo habla cuando le preguntan, jamás ha levantado la voz y, lo más importante, jamás se ha preguntado qué pasaría si todo cambiara.\n\nPero, ¿y si eso ocurriera?\n\nEn un mundo donde la libertad está controlada, ¿hasta dónde serías capaz de llegar para recuperarla?\n\n¿Hasta dónde serías capaz de llegar para sobrevivir?",
-    "opinion": "Ciudades de fuego",
+    "opinion": "Ciudades de fuego, el primer libro de la trilogía, es un buen libro,  la historia es muy interesante y te mantiene enganchado a saber qué va a pasar. Aunque este libro es muy introductorio (por lo menos así lo veo yo), por esto pienso que en algunos momentos es un poco lento. Pero esto no quiere decir que sea malo, ¡noooo!\n                                                                                                                                                 \nAl ser el primer libro y servir de introducción, tiene un plus, ya que el mundo en el que se desarrolla es muy interesante y curioso, y en todo momento me hizo querer descubrir cómo es el mundo en el que se desarrolla la historia.\nPor otro lado, los personajes son interesantes, aunque algunos más que otros, lo cual es normal.\n\nLa más interesante, desde mi punto de vista, es Alice, tanto en este libro como en toda la trilogía, ya que su desarrollo es bastante bueno y la forma en que cambia y se adapta a su nuevo estilo de vida es notable.",
     "pages": 496,
     "pagesRead": 496,
-    "genres": ["Fiction"]
+    "genres": [
+      "Fiction"
+    ],
+    "epubLink": "https://prod-files-secure.s3.us-west-2.amazonaws.com/4b14c2f8-1a7a-4b2a-be43-8649b0ed9254/d05e0d3b-30a9-45da-8c69-744204e2ef22/Ciudades_de_humo_-_Joana_Marcus.epub?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45HZZMZUHI%2F20240805%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20240805T201615Z&X-Amz-Expires=3600&X-Amz-Signature=61ea2bc39143dd1ec3e127b6618cd04b4dbf43d3a866b72cc9041f0e3da8a59b&X-Amz-SignedHeaders=host&x-id=GetObject",
+    "epubTitle": "Ciudades de humo - Joana Marcus.epub"
   }
 ]
