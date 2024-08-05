@@ -1,15 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import ArrowIcon from '../../components/ArrowIcon.astro'
-// import books from '../../mocks/normalized-data.json'
+import books from '../../mocks/normalized-data.json'
 import { getBooksInfo } from '../../scripts/fetchBooks'
 
 export const getStaticPaths = async () => {
-  const { books } = await getBooksInfo({
-    genreId: import.meta.env.GENRE_DATABASE_ID,
-    authorId: import.meta.env.AUTHOR_DATABASE_ID,
-    booksId: import.meta.env.BOOKS_DATABASE_ID,
-  })
+  // const { books } = await getBooksInfo({
+  //   genreId: import.meta.env.GENRE_DATABASE_ID,
+  //   authorId: import.meta.env.AUTHOR_DATABASE_ID,
+  //   booksId: import.meta.env.BOOKS_DATABASE_ID,
+  // })
 
   return books.map((book) => {
     return {
@@ -43,13 +43,16 @@ const bookOpinion = opinion
 ---
 
 <Layout title={bookTitle}>
-  <a href="/" class="inline-flex py-2 px-4 rounded bg-[#1b1b1b] text-[#d5d0c4]">
+  <a
+    href="/"
+    class="inline-flex py-2 px-4 rounded bg-[#1b1b1b] text-[#d5d0c4] sticky top-1 z-10"
+  >
     <ArrowIcon />
     Volver
   </a>
-  <h1 class="text-7xl">{bookTitle}</h1>
+  <h1 class="text-4xl md:text-6xl lg:text-7xl">{bookTitle}</h1>
   <section class="my-10">
-    <article class="flex gap-8">
+    <article class="md:flex gap-8">
       <div class="book-container">
         <div class="book">
           <img alt={`Portada del libro ${bookTitle}`} src={bookImage} />
@@ -96,7 +99,7 @@ const bookOpinion = opinion
         </h2>
         <article>
           {bookOpinion.map((line) => (
-            <p class="max-w-2xl">{line}</p>
+            <p class="max-w-4xl">{line}</p>
           ))}
         </article>
       </section>
@@ -131,10 +134,10 @@ const bookOpinion = opinion
     animation: 1s ease 0s 1 initAnimation;
   }
 
-  .book-container:hover .book,
+  /* .book-container:hover .book,
   .book-container:focus .book {
     transform: rotateY(0deg);
-  }
+  } */
 
   .book > :first-child {
     position: absolute;

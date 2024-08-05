@@ -38,10 +38,6 @@ const { title } = Astro.props
     color: var(--TEXT-COLOR);
   }
 
-  main {
-    margin: 1rem 12rem;
-  }
-
   h1,
   h2,
   h3 {
@@ -62,5 +58,23 @@ const { title } = Astro.props
   h2,
   p {
     margin: 0.3rem 0;
+  }
+
+  @media (width <= 1024px) {
+    main {
+      margin: 1rem 1rem;
+    }
+  }
+
+  @media (width >= 1024px) {
+    main {
+      margin: 1rem 4rem;
+    }
+  }
+
+  @media (width >= 1404px) {
+    main {
+      margin: 1rem 12rem;
+    }
   }
 </style>
