@@ -10,7 +10,7 @@ const { books, title } = Astro.props
     {title}
   </h2>
   <ul
-    class={`${books.length >= 6 ? 'grid grid-cols-[repeat(auto-fit,minmax(200px,1fr))]' : 'flex'} gap-10 gap-y-1`}
+    class={`${books.length > 5 ? 'lg:grid lg:grid-cols-[repeat(auto-fit,minmax(200px,1fr))]' : 'lg:flex lg:flex-wrap '} gap-10 gap-y-1 grid grid-cols-[repeat(auto-fit,minmax(170px,0.2fr))]`}
   >
     {
       books.map(

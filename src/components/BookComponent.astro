@@ -18,6 +18,10 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
 </article>
 
 <style>
+  :root {
+    --book-width: 225px;
+    --book-height: 325px;
+  }
   .book-container {
     display: flex;
     align-items: center;
@@ -35,8 +39,8 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
   } */
 
   .book {
-    width: 225px;
-    height: 325px;
+    width: var(--book-width);
+    height: var(--book-height);
     position: relative;
     transform-style: preserve-3d;
     transform: rotateY(0deg);
@@ -44,18 +48,13 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
     animation: 1s ease 0s 1 initAnimation;
   }
 
-  .book-container:hover .book,
-  .book-container:focus .book {
-    transform: rotateY(-30deg);
-  }
-
   .book > :first-child {
     position: absolute;
     top: 0;
     left: 0;
     background-color: red;
-    width: 225px;
-    height: 325px;
+    width: var(--book-width);
+    height: var(--book-height);
     transform: translateZ(20px);
     background-color: #01060f;
     border-radius: 0 5px 5px 0;
@@ -63,51 +62,73 @@ const { imageSrc, imageAlt, bookUrl, title, author, pages, status } =
     /* box-shadow: 5px 5px 20px #666; */
   }
 
-  .book::before {
-    position: absolute;
-    content: ' ';
-    background-color: blue;
-    left: 0;
-    top: 4px;
-    width: 38px;
-    height: 317px;
-    transform: translateX(201px) rotateY(90deg);
-    background: linear-gradient(
-      90deg,
-      #fff 0%,
-      #f9f9f9 5%,
-      #fff 10%,
-      #f9f9f9 15%,
-      #fff 20%,
-      #f9f9f9 25%,
-      #fff 30%,
-      #f9f9f9 35%,
-      #fff 40%,
-      #f9f9f9 45%,
-      #fff 50%,
-      #f9f9f9 55%,
-      #fff 60%,
-      #f9f9f9 65%,
-      #fff 70%,
-      #f9f9f9 75%,
-      #fff 80%,
-      #f9f9f9 85%,
-      #fff 90%,
-      #f9f9f9 95%,
-      #fff 100%
-    );
+  @media (width >= 1024px) {
+    .book,
+    .book > :first-child {
+      width: var(--book-width);
+    }
   }
 
-  .book::after {
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: ' ';
-    width: 225px;
-    height: 325px;
-    transform: translateZ(-20px);
-    background-color: #01060f;
-    border-radius: 0 5px 5px 0;
-    /* box-shadow: -10px 0 50px 10px #666; */
+  @media (width < 1024px) {
+    .book,
+    .book > :first-child {
+      width: 100%;
+      height: 260px;
+    }
+  }
+
+  @media (width >= 1024px) {
+    .book-container:hover .book,
+    .book-container:focus .book {
+      transform: rotateY(-30deg);
+    }
+
+    .book::before {
+      position: absolute;
+      content: ' ';
+      background-color: blue;
+      left: 0;
+      top: 4px;
+      width: 38px;
+      height: 317px;
+      transform: translateX(201px) rotateY(90deg);
+      background: linear-gradient(
+        90deg,
+        #fff 0%,
+        #f9f9f9 5%,
+        #fff 10%,
+        #f9f9f9 15%,
+        #fff 20%,
+        #f9f9f9 25%,
+        #fff 30%,
+        #f9f9f9 35%,
+        #fff 40%,
+        #f9f9f9 45%,
+        #fff 50%,
+        #f9f9f9 55%,
+        #fff 60%,
+        #f9f9f9 65%,
+        #fff 70%,
+        #f9f9f9 75%,
+        #fff 80%,
+        #f9f9f9 85%,
+        #fff 90%,
+        #f9f9f9 95%,
+        #fff 100%
+      );
+    }
+
+    .book::after {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: ' ';
+      width: var(--book-width);
+      height: var(--book-height);
+      transform: translateZ(-20px);
+      background-color: #01060f;
+      border-radius: 0 5px 5px 0;
+      /* box-shadow: -10px 0 50px 10px #666; */
+    }
   }
 </style>

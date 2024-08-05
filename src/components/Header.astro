@@ -1,4 +1,5 @@
 ---
+// import booksGenres from '../mocks/normalized-genres.json'
 import { getBooksInfo } from '../scripts/fetchBooks'
 const { booksGenres } = await getBooksInfo({
   genreId: import.meta.env.GENRE_DATABASE_ID,
@@ -9,8 +10,8 @@ const { genero } = Astro.params
 ---
 
 <header>
-  <h1 class="text-9xl">Mis listas de libros 📚</h1>
-  <p class="text-3xl max-w-6xl">
+  <h1 class="text-4xl lg:text-9xl">Mi lista de libros 📚</h1>
+  <p class="lg:text-3xl lg:max-w-6xl">
     Hola soy Jayslen Rojas, no encontraba que hacer y hice esto, es una pagina
     en donde se muestra mis libros pendientes, terminados y los que estoy
     leyendo.

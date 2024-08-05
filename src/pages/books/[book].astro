@@ -1,15 +1,15 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import ArrowIcon from '../../components/ArrowIcon.astro'
-import books from '../../mocks/normalized-data.json'
+// import books from '../../mocks/normalized-data.json'
 import { getBooksInfo } from '../../scripts/fetchBooks'
 
 export const getStaticPaths = async () => {
-  // const { books } = await getBooksInfo({
-  //   genreId: import.meta.env.GENRE_DATABASE_ID,
-  //   authorId: import.meta.env.AUTHOR_DATABASE_ID,
-  //   booksId: import.meta.env.BOOKS_DATABASE_ID,
-  // })
+  const { books } = await getBooksInfo({
+    genreId: import.meta.env.GENRE_DATABASE_ID,
+    authorId: import.meta.env.AUTHOR_DATABASE_ID,
+    booksId: import.meta.env.BOOKS_DATABASE_ID,
+  })
 
   return books.map((book) => {
     return {
