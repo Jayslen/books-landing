@@ -39,7 +39,7 @@ export async function getBooksInfo({genreId, authorId, booksId}) {
           (author) => author.id === properties.Authors.relation[0].id
         ).authorName,
         synopsis: properties.Summary.rich_text[0].plain_text,
-        opinion: properties.Opinion?.rich_text[0]?.plain_text,
+        opinion: properties.Opinion.rich_text[0]?.plain_text,
         pages: properties.Pages.number,
         pagesRead: properties['Pages Read'].number,
         genres: properties.Genres.relation.map((genre) => {

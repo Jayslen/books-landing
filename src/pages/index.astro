@@ -18,9 +18,8 @@ const filtersBooks = {
 }
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Mi lista de libros">
   <Header />
-
   <BooksSection books={filtersBooks.reading} title="Leyendo" />
   <BooksSection books={filtersBooks.finished} title="Completados" />
   <BooksSection books={filtersBooks.pending} title="Pendiente" />
