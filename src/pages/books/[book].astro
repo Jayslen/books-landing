@@ -30,7 +30,7 @@ const {
   bookImage,
   synopsis,
   author,
-  publishedDate,
+  publishedDate: releaseDate,
   bookStatus,
   genres,
   opinion,
@@ -43,6 +43,11 @@ const bookSynopsis = synopsis.split(/\n/).filter((line) => line.length > 0)
 const bookOpinion = opinion
   ? opinion.split(/\n/).filter((line) => line.length > 0)
   : []
+const publishedDate = new Date(releaseDate).toLocaleDateString('es-ES', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+})
 ---
 
 <Layout title={bookTitle}>
