@@ -1,8 +1,8 @@
 import { Client } from '@notionhq/client'
 
-export async function getBooksInfo({genreId, authorId, booksId}) {
+export async function getBooksInfo({genreId, authorId, booksId, secret}) {
   const notion = new Client({
-    auth: 'secret_Cqih0LjqUSfVFdJhoZN9qQn35FcGF3xIpjxaNFrIOzn',
+    auth: secret,
   })
   const [allGenres, allAuthors, allBooks] = await Promise.all([
     notion.databases.query({ database_id: genreId }),
@@ -48,6 +48,10 @@ export async function getBooksInfo({genreId, authorId, booksId}) {
         epubLink: properties.Epub?.files[0]?.file?.url,
         epubTitle: properties.Epub?.files[0]?.name
       }
+    }).sort((a, b) => {
+      return new Date(a.publishedDate) - new Date(b.publishedDate)
+    }).sort((a, b) => {
+      return a.author.localeCompare(b.author)
     })
 
     return {books, booksGenres}
