@@ -30,7 +30,7 @@ export async function getBooksInfo({genreId, authorId, booksId}) {
       return {
         bookTitle: properties.Name.title[0].plain_text,
         bookImage: properties.Cover.files[0].external.url,
-        publishedDate: properties['Published Year'].number,
+        publishedDate: properties['Published Year'].date.start,
         dateStarted: properties['Date Started']?.date?.start,
         dateFinished: properties['Date Finished']?.date?.start,
         raiting: properties.Rating.select?.name,
