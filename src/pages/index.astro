@@ -9,6 +9,7 @@ const { books } = await getBooksInfo({
   genreId: import.meta.env.GENRE_DATABASE_ID,
   authorId: import.meta.env.AUTHOR_DATABASE_ID,
   booksId: import.meta.env.BOOKS_DATABASE_ID,
+  secret: import.meta.env.NOTION_SECRET,
 })
 
 const filtersBooks = {
