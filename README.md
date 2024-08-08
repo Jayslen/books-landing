@@ -1,7 +1,7 @@
 
 # Landing page - Mis libros pendiente.
 
-Esta es una landing page la cual almacena mis libros pendientes, completos y los que estoy leyendo, con un diseño muy minimalista y agradable.
+Esta es una landing page la cual almacena mis libros pendientes, completos y los que estoy leyendo, con un diseño muy minimalista y agradable, desarrollada con el framework astro.
 
 ## Features
 
