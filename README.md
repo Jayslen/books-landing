@@ -1,7 +1,7 @@
 
 # Landing page - Mis libros pendiente.
 
-Esta es una landing page la cual almacena mis libros pendientes, completos y los que estoy leyendo, con un diseño muy minimalista y agradable, desarrollada con el framework astro.
+En esta landing page encontraras lo que son mi lista de libros, divididos en secciones de leyendo, completados y pendientes. En esta landing podras visualizar todos estos libros y detalles del mismo con un diseño sutil y simple. Esta pagina fue desarrollada con astro y tailwind css y usa notion como base de datos para almacenar los datos.
 
 ## Features
 
