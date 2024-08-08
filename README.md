@@ -19,7 +19,7 @@ Esta es una landing page la cual almacena mis libros pendientes, completos y los
 
 ![App Screenshot](https://github.com/Jayslen/books-landing/blob/master/previews/997shots_so.png)
 
-![App Screenshot]([https://github.com/Jayslen/books-landing/blob/master/previews/987shots_so.png)
+![App Screenshot](https://github.com/Jayslen/books-landing/blob/master/previews/987shots_so.png)
 
 ![App Screenshot](https://github.com/Jayslen/books-landing/blob/master/previews/749shots_so.png)
 
