@@ -13,11 +13,32 @@ const { title } = Astro.props
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link
       href="https://api.fontshare.com/v2/css?f[]=erode@400,500&f[]=satoshi@700,900&display=swap"
       rel="stylesheet"
     />
+    <!-- HTML Meta Tags -->
+<title>Mi lista de libros</title>
+<meta name="description" content="Explora mi lista de libros, donde encontrarás mis lecturas actuales, libros pendientes por leer y aquellos que ya he terminado. Mantente al día con mis recomendaciones literarias y descubre nuevas historias para añadir a tu colección personal. Actualizaciones regulares para inspirar tu próxima lectura.">
+
+<!-- Facebook Meta Tags -->
+<meta property="og:url" content="https://books-landing-git-master-jayslens-projects.vercel.app/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Mi lista de libros">
+<meta property="og:description" content="Explora mi lista de libros, donde encontrarás mis lecturas actuales, libros pendientes por leer y aquellos que ya he terminado. Mantente al día con mis recomendaciones literarias y descubre nuevas historias para añadir a tu colección personal. Actualizaciones regulares para inspirar tu próxima lectura.">
+<meta property="og:image" content="/open-graph-image.png">
+
+<!-- Twitter Meta Tags -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:domain" content="books-landing-git-master-jayslens-projects.vercel.app">
+<meta property="twitter:url" content="https://books-landing-git-master-jayslens-projects.vercel.app/">
+<meta name="twitter:title" content="Mi lista de libros">
+<meta name="twitter:description" content="Explora mi lista de libros, donde encontrarás mis lecturas actuales, libros pendientes por leer y aquellos que ya he terminado. Mantente al día con mis recomendaciones literarias y descubre nuevas historias para añadir a tu colección personal. Actualizaciones regulares para inspirar tu próxima lectura.">
+<meta name="twitter:image" content="/open-graph-image.png">
+
     <meta name="generator" content={Astro.generator} />
     <ViewTransitions />
     <title>{title}</title>
