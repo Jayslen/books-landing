@@ -26,8 +26,9 @@ export async function getBooksInfo({genreId, authorId, booksId, secret}) {
       }),
     }
 
-    const books = allBooks.results.map(({ properties }) => {
+    const books = allBooks.results.map(({ properties,id }) => {
       return {
+        id,
         bookTitle: properties.Name.title[0].plain_text,
         bookImage: properties.Cover.files[0].external.url,
         publishedDate: properties['Published Year']?.date?.start,
@@ -39,14 +40,12 @@ export async function getBooksInfo({genreId, authorId, booksId, secret}) {
           (author) => author.id === properties.Authors.relation[0].id
         ).authorName,
         synopsis: properties.Summary.rich_text[0].plain_text,
-        opinion: properties.Opinion.rich_text[0]?.plain_text,
+        opinion: properties.Opinion.checkbox,
         pages: properties.Pages.number,
         pagesRead: properties['Pages Read'].number,
         genres: properties.Genres.relation.map((genre) => {
           return booksGenres.find((bookGenre) => bookGenre.id === genre.id).name
         }),
-        epubLink: properties.Epub?.files[0]?.file?.url,
-        epubTitle: properties.Epub?.files[0]?.name
       }
     }).sort((a, b) => {
       return new Date(a.publishedDate) - new Date(b.publishedDate)
