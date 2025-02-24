@@ -58,3 +58,12 @@ export async function getBooksInfo({genreId, authorId, booksId, secret}) {
     console.error(error)
   }
 }
+
+getBooksInfo({
+  genreId: '0b424cbe27d7435ebe1e87f7bb9c747d',
+  authorId: 'e91d6f0b69e64e3b86ef1e0f17de7c55',
+  booksId: '0f220582bb9a44f19d8b18ae82b57ac9',
+  secret: 'secret_Cqih0LjqUSfVFdJhoZN9qQn35FcGF3xIpjxaNFrIOzn'
+}).then((data) => {
+  console.log(data)
+})

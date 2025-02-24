@@ -14,7 +14,9 @@ const { books } = await getBooksInfo({
 
 const filtersBooks = {
   reading: books.filter(({ bookStatus }) => bookStatus === 'Reading'),
-  finished: books.filter(({ bookStatus }) => bookStatus === 'Read').sort((a, b) => new Date(b.dateFinished) - new Date(a.dateFinished)),
+  finished: books
+    .filter(({ bookStatus }) => bookStatus === 'Read')
+    .sort((a, b) => new Date(b.dateFinished) - new Date(a.dateFinished)),
   pending: books.filter(({ bookStatus }) => bookStatus === 'Want To Read'),
 }
 ---
